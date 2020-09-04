@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         button = findViewById(R.id.button);
 
-        String data = readTextFile(getResources().openRawResource(R.raw.data));
+        String data = readTextFile(getResources().openRawResource(R.raw.wordData));
         Gson gson = new Gson();
         ArrayList<Word> words = gson.fromJson(data, new TypeToken<ArrayList<Word>>(){}.getType());
 
