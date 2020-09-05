@@ -25,7 +25,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     private SearchView searchView;
     private ListView listView;
-    private Button button;
+    private Button searchedWordButton;
+    private Button favoriteWordButton;
 
     ArrayList<String> list;
     ArrayAdapter<String> adapter;
@@ -37,14 +38,13 @@ public class MainActivity extends AppCompatActivity {
 
         searchView = findViewById(R.id.searchView);
         listView = findViewById(R.id.listView);
-        button = findViewById(R.id.button);
+        searchedWordButton = findViewById(R.id.searchedWordButton);
+        favoriteWordButton = findViewById(R.id.favoriteWordButton);
 
-        String data = readTextFile(getResources().openRawResource(R.raw.wordData));
         Gson gson = new Gson();
-        ArrayList<Word> words = gson.fromJson(data, new TypeToken<ArrayList<Word>>(){}.getType());
+        ArrayList<Word> words = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.word)), new TypeToken<ArrayList<Word>>(){}.getType());
 
-
-        list = new ArrayList<String>();
+        list = new ArrayList<>();
         for (Word word: words) {
             list.add(word.getName());
             list.add(word.getAbbreviation());
@@ -56,10 +56,9 @@ public class MainActivity extends AppCompatActivity {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int index, long l) {
-                Log.d("AAAA", list.get(index));
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Intent intent = new Intent(getApplicationContext(), WordActivity.class);
-                intent.putExtra("name", list.get(index));
+                intent.putExtra("inputText", listView.getItemAtPosition(position).toString());
                 startActivity(intent);
             }
         });
@@ -68,6 +67,20 @@ public class MainActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
+                boolean check = false;
+                for (String item : list) {
+                    if (s.toLowerCase().equals(item.toLowerCase())) {
+                        Intent intent = new Intent(getApplicationContext(), WordActivity.class);
+                        intent.putExtra("inputText", item);
+                        startActivity(intent);
+                        check = true;
+                    }
+                }
+
+                if (!check) {
+                    Toast.makeText(getApplicationContext(), "the word does not exist", Toast.LENGTH_LONG).show();
+                    listView.setVisibility(View.GONE);
+                }
                 return false;
             }
 
@@ -75,31 +88,16 @@ public class MainActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String s) {
                 if (s.equals("")) {
                     listView.setVisibility(View.GONE);
-                    button.setVisibility(View.VISIBLE);
+                    searchedWordButton.setVisibility(View.VISIBLE);
+                    favoriteWordButton.setVisibility(View.VISIBLE);
                 } else {
                     adapter.getFilter().filter(s);
                     listView.setVisibility(View.VISIBLE);
-                    button.setVisibility(View.GONE);
+                    searchedWordButton.setVisibility(View.GONE);
+                    favoriteWordButton.setVisibility(View.GONE);
                 }
                 return false;
             }
         });
-    }
-
-    public String readTextFile(InputStream inputStream) {
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-
-        byte buf[] = new byte[1024];
-        int len;
-        try {
-            while ((len = inputStream.read(buf)) != -1) {
-                outputStream.write(buf, 0, len);
-            }
-            outputStream.close();
-            inputStream.close();
-        } catch (IOException e) {
-
-        }
-        return outputStream.toString();
     }
 }

@@ -26,22 +26,40 @@
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:visibility="gone"
-        android:translationZ="2dp"
+        android:background="#DEF3F5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/searchView"
         app:layout_constraintStart_toStartOf="@+id/searchView"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/searchedWordButton"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="116dp"
-        android:layout_marginRight="116dp"
-        android:layout_marginBottom="456dp"
-        android:text="Button"
-        android:translationZ="1dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="244dp"
+        android:text="@string/searched_word_button_text"
+        android:drawableRight="@drawable/ic_next"
+        android:drawableEnd="@drawable/ic_next"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/favoriteWordButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/favorite_word_button_text"
+        android:drawableRight="@drawable/ic_next"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintEnd_toEndOf="@+id/searchedWordButton"
+        app:layout_constraintStart_toStartOf="@+id/searchedWordButton"
+        app:layout_constraintTop_toBottomOf="@+id/searchedWordButton"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
