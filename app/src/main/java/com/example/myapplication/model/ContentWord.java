@@ -3,7 +3,7 @@ package com.example.myapplication.model;
 import lombok.Data;
 
 @Data
-public class Meaning {
+public class ContentWord {
     private String name;
     private String type;
     private String meaning;

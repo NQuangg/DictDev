@@ -1,6 +1,6 @@
 [
   {
-    "name": "operating system ",
+    "name": "operating system",
     "type": "n",
     "meaning": "hệ điều hành",
     "definition": "a system software that manages computer hardware, software resources, and provides common services for computer programs",
@@ -14,14 +14,14 @@
     "example": ""
   },
   {
-    "name": "database ",
+    "name": "database",
     "type": "n ",
     "meaning": "cơ sở dữ liệu",
     "definition": "a database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.",
     "example": "Microsoft SQL Server, MySQL, MongoDB"
   },
   {
-    "name": "protocol ",
+    "name": "protocol",
     "type": "n ",
     "meaning": "giao thức",
     "definition": "a set of rules or procedures for transmitting data between electronic devices, such as computers",
@@ -49,7 +49,7 @@
     "example": "IntelliJ, Eclipse, Visual Studio Code"
   },
   {
-    "name": "computer ",
+    "name": "computer",
     "type": "n",
     "meaning": "máy tính",
     "definition": "an electronic device that manipulates information, or data. It has the ability to store, retrieve, and process data",
@@ -224,14 +224,14 @@
     "example": ""
   },
   {
-    "name": "design ",
+    "name": "design",
     "type": "v",
     "meaning": "thiết kế",
     "definition": "",
     "example": ""
   },
   {
-    "name": "designer ",
+    "name": "designer",
     "type": "n",
     "meaning": "nhà thiết kế",
     "definition": "",
@@ -245,7 +245,7 @@
     "example": ""
   },
   {
-    "name": "bridge system engineer.",
+    "name": "bridge system engineer",
     "type": "n",
     "meaning": "kỹ sư cầu nối",
     "definition": "",

@@ -1,6 +1,8 @@
 package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,8 +17,10 @@ import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.myapplication.model.Meaning;
-import com.example.myapplication.model.Word;
+import com.example.myapplication.adapter.Meaning;
+import com.example.myapplication.adapter.MeaningAdapter;
+import com.example.myapplication.model.ContentWord;
+import com.example.myapplication.model.TitleWord;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -32,6 +36,10 @@ public class WordActivity extends AppCompatActivity {
     ArrayList<String> list;
     ArrayAdapter<String> adapter;
 
+    private RecyclerView mRecyclerView;
+    private MeaningAdapter mAdapter;
+    ArrayList<Meaning> meaningArrayList;
+
     private boolean checkSearchItem = true;
 
     @Override
@@ -44,8 +52,8 @@ public class WordActivity extends AppCompatActivity {
         abbreviationWord = findViewById(R.id.abbreviationWord);
 
         Gson gson = new Gson();
-        ArrayList<Word> words = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.word)), new TypeToken<ArrayList<Word>>(){}.getType());
-        ArrayList<Meaning> meaning = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.word)), new TypeToken<ArrayList<Meaning>>(){}.getType());
+        ArrayList<TitleWord> titleWords = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.word)), new TypeToken<ArrayList<TitleWord>>(){}.getType());
+        ArrayList<ContentWord> contentWords = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.meaning)), new TypeToken<ArrayList<ContentWord>>(){}.getType());
 
         Intent intent = getIntent();
         String inputText = intent.getStringExtra("inputText");
@@ -55,27 +63,37 @@ public class WordActivity extends AppCompatActivity {
         String pronounce = "";
         String abbreviation = "";
 
-
-        for (Word word: words) {
-            if (inputText.equals(word.getName()) || inputText.equals(word.getAbbreviation())) {
-                name = word.getName();
-                pronounce = word.getPronounce();
-                abbreviation = word.getAbbreviation();
+        for (TitleWord titleWord : titleWords) {
+            if (inputText.equals(titleWord.getName()) || inputText.equals(titleWord.getAbbreviation())) {
+                name = titleWord.getName();
+                pronounce = titleWord.getPronounce();
+                abbreviation = titleWord.getAbbreviation();
             }
-
         }
         nameWord.setText(name);
         pronounceWord.setText(pronounce);
         abbreviationWord.setText("(abbreviation " + abbreviation +")");
 
+        meaningArrayList = new ArrayList<>();
+        for (ContentWord contentWord : contentWords) {
+            if (nameWord.getText().equals(contentWord.getName())) {
+                meaningArrayList.add(new Meaning(contentWord.getType(), contentWord.getMeaning(), contentWord.getDefinition(), contentWord.getExample()));
+            }
+        }
+
+        mRecyclerView = findViewById(R.id.recyclerView);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mAdapter = new MeaningAdapter(this, meaningArrayList);
+        mRecyclerView.setAdapter(mAdapter);
+        mAdapter.notifyDataSetChanged();
 
         // searchView
         searchView = findViewById(R.id.searchView);
         listView = findViewById(R.id.listView);
         list = new ArrayList<>();
-        for (Word word: words) {
-            list.add(word.getName());
-            list.add(word.getAbbreviation());
+        for (TitleWord titleWord : titleWords) {
+            list.add(titleWord.getName());
+            list.add(titleWord.getAbbreviation());
         }
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
         listView.setAdapter(adapter);
@@ -118,12 +136,14 @@ public class WordActivity extends AppCompatActivity {
                     nameWord.setVisibility(View.VISIBLE);
                     pronounceWord.setVisibility(View.VISIBLE);
                     abbreviationWord.setVisibility(View.VISIBLE);
+                    mRecyclerView.setVisibility(View.VISIBLE);
                 } else {
                     adapter.getFilter().filter(s);
                     listView.setVisibility(View.VISIBLE);
                     nameWord.setVisibility(View.GONE);
                     pronounceWord.setVisibility(View.GONE);
                     abbreviationWord.setVisibility(View.GONE);
+                    mRecyclerView.setVisibility(View.GONE);
                 }
                 return false;
             }
