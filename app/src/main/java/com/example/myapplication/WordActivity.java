@@ -32,6 +32,8 @@ public class WordActivity extends AppCompatActivity {
     ArrayList<String> list;
     ArrayAdapter<String> adapter;
 
+    private boolean checkSearchItem = true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -139,10 +141,15 @@ public class WordActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
         switch (item.getItemId()) {
             case R.id.search:
-                searchView.setVisibility(View.VISIBLE);
+                if (checkSearchItem) {
+                    searchView.setVisibility(View.VISIBLE);
+                    checkSearchItem = false;
+                } else {
+                    searchView.setVisibility(View.GONE);
+                    checkSearchItem = true;
+                }
                 return true;
             case R.id.favor:
                 item.setIcon(R.drawable.ic_checked_favor);
