@@ -12,6 +12,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.TextView;
@@ -30,6 +32,7 @@ public class WordActivity extends AppCompatActivity {
     private TextView nameWord;
     private TextView pronounceWord;
     private TextView abbreviationWord;
+    private ImageButton volumeButton;
 
     private SearchView searchView;
     private ListView listView;
@@ -50,6 +53,7 @@ public class WordActivity extends AppCompatActivity {
         nameWord = findViewById(R.id.nameWord);
         pronounceWord = findViewById(R.id.pronounceWord);
         abbreviationWord = findViewById(R.id.abbreviationWord);
+        volumeButton = findViewById(R.id.volumeButton);
 
         Gson gson = new Gson();
         ArrayList<TitleWord> titleWords = gson.fromJson(FileRaw.readTextFile(getResources().openRawResource(R.raw.word)), new TypeToken<ArrayList<TitleWord>>(){}.getType());
@@ -137,6 +141,7 @@ public class WordActivity extends AppCompatActivity {
                     pronounceWord.setVisibility(View.VISIBLE);
                     abbreviationWord.setVisibility(View.VISIBLE);
                     mRecyclerView.setVisibility(View.VISIBLE);
+                    volumeButton.setVisibility(View.VISIBLE);
                 } else {
                     adapter.getFilter().filter(s);
                     listView.setVisibility(View.VISIBLE);
@@ -144,6 +149,7 @@ public class WordActivity extends AppCompatActivity {
                     pronounceWord.setVisibility(View.GONE);
                     abbreviationWord.setVisibility(View.GONE);
                     mRecyclerView.setVisibility(View.GONE);
+                    volumeButton.setVisibility(View.GONE);
                 }
                 return false;
             }
@@ -168,6 +174,12 @@ public class WordActivity extends AppCompatActivity {
                     checkSearchItem = false;
                 } else {
                     searchView.setVisibility(View.GONE);
+                    listView.setVisibility(View.GONE);
+                    nameWord.setVisibility(View.VISIBLE);
+                    pronounceWord.setVisibility(View.VISIBLE);
+                    abbreviationWord.setVisibility(View.VISIBLE);
+                    mRecyclerView.setVisibility(View.VISIBLE);
+                    volumeButton.setVisibility(View.VISIBLE);
                     checkSearchItem = true;
                 }
                 return true;
