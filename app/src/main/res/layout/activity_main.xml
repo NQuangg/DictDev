@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
 
     <SearchView
-        android:id="@+id/searchView"
+        android:id="@+id/search_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -21,19 +21,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/list_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:visibility="gone"
         android:background="#DEF3F5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/searchView"
-        app:layout_constraintStart_toStartOf="@+id/searchView"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        app:layout_constraintEnd_toEndOf="@+id/search_view"
+        app:layout_constraintStart_toStartOf="@+id/search_view"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" />
 
     <Button
-        android:id="@+id/searchedWordButton"
+        android:id="@+id/searched_word_button"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:layout_marginStart="16dp"
@@ -51,7 +51,7 @@
         />
 
     <Button
-        android:id="@+id/favoriteWordButton"
+        android:id="@+id/favorite_word_button"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:layout_marginTop="32dp"
@@ -59,9 +59,9 @@
         android:drawableRight="@drawable/ic_next"
         android:drawableEnd="@drawable/ic_next"
         android:background="@drawable/border_item"
-        app:layout_constraintEnd_toEndOf="@+id/searchedWordButton"
-        app:layout_constraintStart_toStartOf="@+id/searchedWordButton"
-        app:layout_constraintTop_toBottomOf="@+id/searchedWordButton"
+        app:layout_constraintEnd_toEndOf="@+id/searched_word_button"
+        app:layout_constraintStart_toStartOf="@+id/searched_word_button"
+        app:layout_constraintTop_toBottomOf="@+id/searched_word_button"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

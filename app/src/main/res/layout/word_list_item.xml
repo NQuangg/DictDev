@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -9,34 +10,37 @@
     android:layout_marginBottom="4dp">
 
     <TextView
-        android:id="@+id/typeWord"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="type"
+        android:id="@+id/stand_for_word"
         style="@style/TextAppearance.AppCompat.Subhead"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="standFor" />
 
     <TextView
-        android:id="@+id/meaningWord"
+        android:id="@+id/type_word"
+        style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="meaning"
-        style="@style/TextAppearance.AppCompat.Subhead"
-        />
+        tools:text="type" />
 
     <TextView
-        android:id="@+id/definitionWord"
+        android:id="@+id/meaning_word"
+        style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="definition"
-        style="@style/TextAppearance.AppCompat.Subhead"
-        />
+        tools:text="meaning" />
 
     <TextView
-        android:id="@+id/exampleWord"
+        android:id="@+id/definition_word"
+        style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="example"
+        tools:text="definition" />
+
+    <TextView
+        android:id="@+id/example_word"
         style="@style/TextAppearance.AppCompat.Subhead"
-        />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="example" />
 </LinearLayout>
