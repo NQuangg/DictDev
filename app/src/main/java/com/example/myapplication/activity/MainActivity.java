@@ -52,10 +52,6 @@ public class MainActivity extends AppCompatActivity {
         mTitleWordViewModel = ViewModelProviders.of(this).get(TitleWordViewModel.class);
         mSearchedWordViewModel = ViewModelProviders.of(this).get(SearchedWordViewModel.class);
 
-
-
-
-
         final ArrayList<String> list = new ArrayList<>();
         mTitleWordViewModel.getAllTitleWords().observe(this, new Observer<List<TitleWord>>() {
             @Override
@@ -80,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 searchView.setQuery("", false);
             }
         });
+
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -110,13 +107,9 @@ public class MainActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String s) {
                 if (s.isEmpty()) {
                     listView.setVisibility(View.GONE);
-                    searchedWordButton.setVisibility(View.VISIBLE);
-                    favoriteWordButton.setVisibility(View.VISIBLE);
                 } else {
                     adapter.getFilter().filter(s.trim());
                     listView.setVisibility(View.VISIBLE);
-                    searchedWordButton.setVisibility(View.GONE);
-                    favoriteWordButton.setVisibility(View.GONE);
                 }
                 return false;
             }

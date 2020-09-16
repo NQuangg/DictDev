@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -25,8 +26,10 @@ import android.widget.Toast;
 import com.example.myapplication.R;
 import com.example.myapplication.adapter.ContentWordAdapter;
 import com.example.myapplication.db.model.ContentWord;
+import com.example.myapplication.db.model.FavoriteWord;
 import com.example.myapplication.db.model.TitleWord;
 import com.example.myapplication.db.viewmodel.ContentWordViewModel;
+import com.example.myapplication.db.viewmodel.FavoriteWordViewModel;
 import com.example.myapplication.db.viewmodel.TitleWordViewModel;
 
 import java.util.ArrayList;
@@ -42,10 +45,10 @@ public class WordActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ContentWordAdapter mAdapter;
 
-
-    private boolean checkSearchItem = true;
+    private boolean isChecked = true;
+    private boolean isFavorite = false;
     private TextToSpeech textToSpeech;
-
+    private String inputText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,8 +63,10 @@ public class WordActivity extends AppCompatActivity {
         mRecyclerView = findViewById(R.id.recycler_view);
 
         Intent intent = getIntent();
-        String inputText = intent.getStringExtra("inputText");
+        inputText = intent.getStringExtra("inputText");
         final Context context = this;
+
+        // favrite
 
 
 
@@ -88,9 +93,6 @@ public class WordActivity extends AppCompatActivity {
                 mAdapter.notifyDataSetChanged();
             }
         });
-
-
-
 
 
         // searchView
@@ -147,17 +149,9 @@ public class WordActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String s) {
                 if (s.isEmpty()) {
                     listView.setVisibility(View.GONE);
-                    nameWord.setVisibility(nameWord.getText().toString().isEmpty() ? View.GONE : View.VISIBLE);
-                    pronounceWord.setVisibility(pronounceWord.getText().toString().isEmpty() ? View.GONE : View.VISIBLE);
-                    mRecyclerView.setVisibility(View.VISIBLE);
-                    volumeButton.setVisibility(View.VISIBLE);
                 } else {
                     adapter.getFilter().filter(s.trim());
                     listView.setVisibility(View.VISIBLE);
-                    nameWord.setVisibility(View.GONE);
-                    pronounceWord.setVisibility(View.GONE);
-                    mRecyclerView.setVisibility(View.GONE);
-                    volumeButton.setVisibility(View.GONE);
                 }
                 return false;
             }
@@ -169,7 +163,7 @@ public class WordActivity extends AppCompatActivity {
             @Override
             public void onInit(int status) {
                 if(status == TextToSpeech.SUCCESS) {
-                    textToSpeech.setLanguage(Locale.UK);
+                    textToSpeech.setLanguage(Locale.US);
                 }
             }
         });
@@ -190,9 +184,23 @@ public class WordActivity extends AppCompatActivity {
 
     // setting menu
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(final Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_word, menu);
+
+        FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
+        mFavoriteWordViewModel.getFavoriteWords(inputText).observe(this, new Observer<List<FavoriteWord>>() {
+            @Override
+            public void onChanged(List<FavoriteWord> favoriteWords) {
+                if (favoriteWords.isEmpty()) {
+                    menu.getItem(1).setIcon(R.drawable.ic_unchecked_favor);
+                    isFavorite = false;
+                } else {
+                    menu.getItem(1).setIcon(R.drawable.ic_checked_favor);
+                    isFavorite = true;
+                }
+            }
+        });
         return true;
     }
 
@@ -200,16 +208,27 @@ public class WordActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.search:
-                if (checkSearchItem) {
+                if (isChecked) {
                     searchView.setVisibility(View.VISIBLE);
-                    checkSearchItem = false;
+                    isChecked = false;
                 } else {
                     searchView.setVisibility(View.GONE);
-                    checkSearchItem = true;
+                    isChecked = true;
                 }
                 return true;
             case R.id.favor:
-                item.setIcon(R.drawable.ic_checked_favor);
+                FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
+                if (isFavorite) {
+                    mFavoriteWordViewModel.delete(new FavoriteWord(inputText));
+                    item.setIcon(R.drawable.ic_unchecked_favor);
+                    Toast.makeText(getApplicationContext(), "Bỏ yêu thích", Toast.LENGTH_SHORT).show();
+                    isFavorite = false;
+                } else {
+                    mFavoriteWordViewModel.insert(new FavoriteWord(inputText));
+                    item.setIcon(R.drawable.ic_checked_favor);
+                    Toast.makeText(getApplicationContext(), "Thêm vào yêu thích", Toast.LENGTH_SHORT).show();
+                    isFavorite = true;
+                }
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

@@ -1,11 +1,1298 @@
 [
   {
-    "id": 1,
-    "name": "OS",
-    "standFor": "operating system",
-    "type": "n",
-    "meaning": "hệ điều hành",
-    "definition": "a system software that manages computer hardware, software resources, and provides common services for computer programs",
-    "example": "Window, Linux, iOS, Android"
+    "name": "AI",
+    "standFor": "Artificial Intelligence",
+    "type": "noun",
+    "meaning": "trí tuệ nhân tạo",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Artificial Intelligence",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "trí tuệ nhân tạo",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "CIO",
+    "standFor": "Chief Information Officer",
+    "type": "noun",
+    "meaning": "giám đốc công nghệ thông tin",
+    "definition": "a CIO is a job title commonly given to the most senior executive in an enterprise who works with information technology and computer systems, in order to support enterprise goals",
+    "example": ""
+  },
+  {
+    "name": "CS",
+    "standFor": "Computer Science",
+    "type": "noun",
+    "meaning": "khoa học máy tính",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "CTO",
+    "standFor": "Chief Technology Officer",
+    "type": "noun",
+    "meaning": "giám đốc công nghệ",
+    "definition": "a CTO is an executive-level position in a company or other entity whose occupation is focused on the scientific and technological issues within an organization",
+    "example": ""
+  },
+  {
+    "name": "Chief Information Officer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giám đốc công nghệ thông tin",
+    "definition": "a CIO is a job title commonly given to the most senior executive in an enterprise who works with information technology and computer systems, in order to support enterprise goals",
+    "example": ""
+  },
+  {
+    "name": "Chief Technology Officer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giám đốc công nghệ",
+    "definition": "a CTO is an executive-level position in a company or other entity whose occupation is focused on the scientific and technological issues within an organization",
+    "example": ""
+  },
+  {
+    "name": "Computer Science",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "khoa học máy tính",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "FIFO",
+    "standFor": "First in First out",
+    "type": "noun",
+    "meaning": "vào trước ra trước",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "First in First out",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "vào trước ra trước",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "GUI",
+    "standFor": "Graphical User Interface",
+    "type": "noun",
+    "meaning": "giao diện đồ họa người dùng",
+    "definition": "a way of giving instructions to a computer using things that can be seen on the screen such as symbols and menus",
+    "example": ""
+  },
+  {
+    "name": "Graphical User Interface",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giao diện đồ họa người dùng",
+    "definition": "a way of giving instructions to a computer using things that can be seen on the screen such as symbols and menus",
+    "example": ""
+  },
+  {
+    "name": "IDE",
+    "standFor": "Integrated Development Environment",
+    "type": "noun",
+    "meaning": "môi trường phát triển tích hợp",
+    "definition": "a software for building applications that combines common developer tools into a single graphical user interface (GUI)",
+    "example": ""
+  },
+  {
+    "name": "IT",
+    "standFor": "Information Technology",
+    "type": "noun",
+    "meaning": "công nghệ thông tin",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Information Technology",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "công nghệ thông tin",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Integrated Development Environment",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "môi trường phát triển tích hợp",
+    "definition": "a software for building applications that combines common developer tools into a single graphical user interface (GUI)",
+    "example": ""
+  },
+  {
+    "name": "LIFO",
+    "standFor": "Last in First out",
+    "type": "noun",
+    "meaning": "vào sau ra trước",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Last in First out",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "vào sau ra trước",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "MIS",
+    "standFor": "Management Information System",
+    "type": "noun",
+    "meaning": "hệ thống thông tin quản lý",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "ML",
+    "standFor": "Machine Learning",
+    "type": "noun",
+    "meaning": "học máy",
+    "definition": "​the study of computer algorithms that improve automatically through experience",
+    "example": ""
+  },
+  {
+    "name": "Machine Learning",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "học máy",
+    "definition": "the study of computer algorithms that improve automatically through experience​",
+    "example": ""
+  },
+  {
+    "name": "Management Information System",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hệ thống thông tin quản lý",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "NaN",
+    "standFor": "Not a Number",
+    "type": "noun",
+    "meaning": "không phải số",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Not a Number",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "không phải số",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "OOP",
+    "standFor": "Object Oriented Programming",
+    "type": "noun",
+    "meaning": "lập trình hướng đối tượng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "Object Oriented Programming",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "lập trình hướng đối tượng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "UI",
+    "standFor": "User Interface",
+    "type": "noun",
+    "meaning": "giao diện người dùng",
+    "definition": "the way a computer gives information to a user or receives instructions from a user",
+    "example": ""
+  },
+  {
+    "name": "UX",
+    "standFor": "User Experience",
+    "type": "noun",
+    "meaning": "trải nghiệm người dùng",
+    "definition": "what it is like for somebody to use a particular product such as a website, for example how easy or pleasant it is to use",
+    "example": ""
+  },
+  {
+    "name": "User Experience",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "trải nghiệm người dùng",
+    "definition": "what it is like for somebody to use a particular product such as a website, for example how easy or pleasant it is to use",
+    "example": ""
+  },
+  {
+    "name": "User Interface",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giao diện người dùng",
+    "definition": "the way a computer gives information to a user or receives instructions from a user",
+    "example": ""
+  },
+  {
+    "name": "VCS",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hệ thống quản lí phiên bản",
+    "definition": "​a category of software tools that help a software team manage changes to source code over time",
+    "example": ""
+  },
+  {
+    "name": "Version Control System",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hệ thống quản lí phiên bản",
+    "definition": "a category of software tools that help a software team manage changes to source code over time​",
+    "example": ""
+  },
+  {
+    "name": "abstraction",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tính trừu tượng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "account",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tài khoản",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "algorithm",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thuật toán, giải thuật",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "animation",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "chuyển động",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "application",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "ứng dụng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "architecture",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "kiến trúc",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "argument",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "đối số",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "array",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "mảng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "binary",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nhị phân",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "browser",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "trình duyệt",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "bug",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "lỗi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "button",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nút bấm",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "class",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "lớp",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "command",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "câu lệnh",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "community",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cộng đồng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "compile",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "biên dịch",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "compiler",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "trình biên dịch",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "component",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thành phần",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "computer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "máy tính",
+    "definition": "a computer is an electronic machine that can store, organize and find information, do processes with numbers and other data, and control other machines",
+    "example": ""
+  },
+  {
+    "name": "conflict",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "xung đột",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "connect",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "kết nối",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "convention",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "quy ước",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "convert",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "chuyển đổi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "copyright",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bản quyền",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "customer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "khách hàng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "data",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "dữ liệu",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "data science",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "khoa học dữ liệu",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "data structure",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cấu trúc dữ liệu",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "database",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cơ sở dữ liệu",
+    "definition": "a database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques",
+    "example": ""
+  },
+  {
+    "name": "deadline",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hạn chót",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "debug",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "gỡ lỗi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "decode",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "giải mã",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "deploy",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "triển khai",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "design",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "thiết kế",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "designer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nhà thiết kế",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "develop",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "phát triển",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "developer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nhà phát triển",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "development",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "sự phát triển",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "device",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thiết bị",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "document",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tài liệu",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "download",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "tải xuống",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "ecosystem",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hệ sinh thái",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "empty",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "rỗng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "encapsulation",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tính bao đóng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "encode",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "mã hóa",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "entity",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thực thể",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "environment",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "môi trường",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "error",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "lỗi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "exception",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "ngoại lệ",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "execute",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "thực thi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "file",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tệp tin",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "folder",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thư mục",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "format",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "định dạng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "framework",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "khung phần mềm",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "generator",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hàm tạo",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "generic programming",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "lập trình tổng quát",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "graph",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "đồ thị",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "hardware",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "phần cứng",
+    "definition": "the machines and electronic parts in a computer or other electronic system",
+    "example": ""
+  },
+  {
+    "name": "information",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thông tin",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "inheritance",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tính kế thừa",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "input",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "đầu ra",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "install",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "cài đặt",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "installation",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "sự cài đặt",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "integrate",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "tích hợp",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "interact",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "tương tác",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "interface",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giao diện",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "interpret",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "thông dịch",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "library",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "thư viện",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "licence",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giấy phép",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "license",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "cấp phép",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "lifecycle",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "vòng đời",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "maintain",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "bảo trì",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "memory",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bộ nhớ",
+    "definition": "the part of a computer where information is stored; the amount of space in a computer for storing information",
+    "example": ""
+  },
+  {
+    "name": "mindset",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tư duy",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "object",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "đối tượng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "offline",
+    "standFor": "",
+    "type": "adjective",
+    "meaning": "ngoại tuyến",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "online",
+    "standFor": "",
+    "type": "adjective",
+    "meaning": "trực tuyến",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "open source",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "mã nguồn mở",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "optimize",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "tối ưu hóa",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "output",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "đầu vào",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "outsource",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "gia công sản phẩm",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "parameter",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tham số",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "password",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "mật khẩu",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "performance",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hiệu năng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "pixel",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "điểm ảnh",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "polymorphism",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tính đa hình",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "port",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cổng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "principle",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nguyên lý, nguyên tắc",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "priority",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "độ ưu tiên, sự ưu tiên",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "process",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "xử lý",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "process",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tiến trình",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "process",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tiến trình",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "product",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "sản phẩm",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "project",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "dự án",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "protocol",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "giao thức",
+    "definition": "a set of rules that control the way data is sent between computers",
+    "example": ""
+  },
+  {
+    "name": "prototype",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "nguyên mẫu",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "queue",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hàng đợi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "register",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "đăng ký",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "release",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "phát hành",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "resolution",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "độ phân giải",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "router",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bộ định tuyến",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "safety",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "an toàn",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "security",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bảo mật",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "setting",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cài đặt",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "signal",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "tín hiệu",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "skill",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "kỹ năng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "software",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "phần mềm",
+    "definition": "​the programs used by a computer for doing particular jobs",
+    "example": ""
+  },
+  {
+    "name": "software architect",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "kiến trúc sư phần mềm",
+    "definition": "a software architect is a software developer expert who makes high-level design choices and tries to enforce technical standards, including software coding standards, tools, and platforms",
+    "example": ""
+  },
+  {
+    "name": "software engineer",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "kỹ sư phần mềm",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "solve",
+    "standFor": "",
+    "type": "verd",
+    "meaning": "giải quyết",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "source code",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "mã nguồn",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "stack",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "ngăn xếp",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "string",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "chuỗi",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "syntax",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cú pháp",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "system",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "hệ thống",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "table",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bảng",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "technical",
+    "standFor": "",
+    "type": "adjective",
+    "meaning": "thuộc về kỹ thuật",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "technique",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "kỹ thuật",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "technological",
+    "standFor": "",
+    "type": "adjective",
+    "meaning": "thuộc về công nghệ",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "technology",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "công nghệ",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "test",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "kiểm tra, kiểm thử",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "thread",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "luồng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "tool",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "công cụ",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "tree",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "cây",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "update",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "cập nhật",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "upgrade",
+    "standFor": "",
+    "type": "verb",
+    "meaning": "nâng cấp",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "user",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "người dùng",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "variable",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "biến",
+    "definition": "",
+    "example": ""
+  },
+  {
+    "name": "virtual memory",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "bộ nhớ ảo",
+    "definition": "​",
+    "example": ""
+  },
+  {
+    "name": "website",
+    "standFor": "",
+    "type": "noun",
+    "meaning": "trang web",
+    "definition": "",
+    "example": ""
   }
 ]

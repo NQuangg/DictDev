@@ -13,28 +13,29 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.R;
 import com.example.myapplication.activity.WordActivity;
 import com.example.myapplication.db.model.SearchedWord;
+import com.example.myapplication.db.model.Word;
 
 import java.util.ArrayList;
 
-public class SearchedWordAdapter extends RecyclerView.Adapter<SearchedWordAdapter.ViewHolder>{
-    private ArrayList<SearchedWord> mWords;
+public class SpecialWordAdapter<T extends Word> extends RecyclerView.Adapter<SpecialWordAdapter.ViewHolder>{
+    private ArrayList<T> mWords;
     private Context mContext;
 
-    public SearchedWordAdapter(Context mContext, ArrayList<SearchedWord> mWords) {
+    public SpecialWordAdapter(Context mContext, ArrayList<T> mWords) {
         this.mWords = mWords;
         this.mContext = mContext;
     }
 
     @NonNull
     @Override
-    public SearchedWordAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new SearchedWordAdapter.ViewHolder(LayoutInflater.from(mContext).
+    public SpecialWordAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        return new SpecialWordAdapter.ViewHolder(LayoutInflater.from(mContext).
                 inflate(R.layout.recycler_list_item, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(@NonNull SearchedWordAdapter.ViewHolder holder, int position) {
-        SearchedWord currentWord = mWords.get(position);
+    public void onBindViewHolder(@NonNull SpecialWordAdapter.ViewHolder holder, int position) {
+        T currentWord = mWords.get(position);
 
         holder.wordButton.setText(currentWord.getWord());
     }

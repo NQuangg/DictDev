@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@drawable/border_item"
+    android:background="@drawable/content_word_background"
     android:padding="5dp"
-    android:layout_marginBottom="4dp">
+    android:layout_marginBottom="8dp">
 
     <TextView
         android:id="@+id/stand_for_word"

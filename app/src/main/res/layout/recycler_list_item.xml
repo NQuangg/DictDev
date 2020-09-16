@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp">
 
     <Button
         android:id="@+id/word_button"
@@ -12,5 +13,6 @@
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_next"
         android:drawableRight="@drawable/ic_next"
+        android:background="@drawable/word_background"
         tools:text="word" />
 </LinearLayout>

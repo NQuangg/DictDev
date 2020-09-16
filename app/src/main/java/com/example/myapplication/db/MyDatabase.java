@@ -11,9 +11,11 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.example.myapplication.R;
 import com.example.myapplication.db.dao.ContentWordDao;
+import com.example.myapplication.db.dao.FavoriteWordDao;
 import com.example.myapplication.db.dao.SearchedWordDao;
 import com.example.myapplication.db.dao.TitleWordDao;
 import com.example.myapplication.db.model.ContentWord;
+import com.example.myapplication.db.model.FavoriteWord;
 import com.example.myapplication.db.model.SearchedWord;
 import com.example.myapplication.db.model.TitleWord;
 import com.google.gson.Gson;
@@ -25,11 +27,12 @@ import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-@Database(entities = {TitleWord.class, ContentWord.class, SearchedWord.class}, version = 1, exportSchema = false)
+@Database(entities = {TitleWord.class, ContentWord.class, SearchedWord.class, FavoriteWord.class}, version = 1, exportSchema = false)
 public abstract class MyDatabase extends RoomDatabase {
     public abstract TitleWordDao titleWordDao();
     public abstract ContentWordDao contentWordDao();
     public abstract SearchedWordDao searchedWordDao();
+    public abstract FavoriteWordDao favoriteWordDao();
     private static MyDatabase INSTANCE;
 
     public static MyDatabase getInstance(final Context context) {

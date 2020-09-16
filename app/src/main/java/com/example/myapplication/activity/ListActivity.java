@@ -8,17 +8,14 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.widget.Toast;
 
 import com.example.myapplication.R;
-import com.example.myapplication.adapter.ContentWordAdapter;
-import com.example.myapplication.adapter.SearchedWordAdapter;
+import com.example.myapplication.adapter.SpecialWordAdapter;
+import com.example.myapplication.db.model.FavoriteWord;
 import com.example.myapplication.db.model.SearchedWord;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.viewmodel.FavoriteWordViewModel;
 import com.example.myapplication.db.viewmodel.SearchedWordViewModel;
-import com.example.myapplication.db.viewmodel.TitleWordViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +23,6 @@ import java.util.List;
 public class ListActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
-    private SearchedWordAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +48,20 @@ public class ListActivity extends AppCompatActivity {
                 public void onChanged(List<SearchedWord> searchedWordList) {
                     searchedWords.addAll(searchedWordList);
                     mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
-                    mAdapter = new SearchedWordAdapter(context, searchedWords);
+                    SpecialWordAdapter<SearchedWord> mAdapter = new SpecialWordAdapter<>(context, searchedWords);
+                    mRecyclerView.setAdapter(mAdapter);
+                    mAdapter.notifyDataSetChanged();
+                }
+            });
+        } else {
+            final ArrayList<FavoriteWord> favoriteWords = new ArrayList<>();
+            FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
+            mFavoriteWordViewModel.getAllFavoriteWords().observe(this, new Observer<List<FavoriteWord>>() {
+                @Override
+                public void onChanged(List<FavoriteWord> WordList) {
+                    favoriteWords.addAll(WordList);
+                    mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
+                    SpecialWordAdapter<FavoriteWord> mAdapter = new SpecialWordAdapter(context, favoriteWords);
                     mRecyclerView.setAdapter(mAdapter);
                     mAdapter.notifyDataSetChanged();
                 }
