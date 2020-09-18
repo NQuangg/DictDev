@@ -11,8 +11,11 @@
         android:id="@+id/word_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableEnd="@drawable/ic_next"
-        android:drawableRight="@drawable/ic_next"
         android:background="@drawable/word_background"
+        android:drawableStart="@drawable/ic_list"
+        android:drawableLeft="@drawable/ic_list"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
         tools:text="word" />
 </LinearLayout>

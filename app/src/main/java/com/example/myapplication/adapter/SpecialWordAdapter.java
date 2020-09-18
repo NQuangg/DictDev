@@ -2,6 +2,7 @@ package com.example.myapplication.adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,17 +13,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
 import com.example.myapplication.activity.WordActivity;
-import com.example.myapplication.db.model.SearchedWord;
 import com.example.myapplication.db.model.Word;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class SpecialWordAdapter<T extends Word> extends RecyclerView.Adapter<SpecialWordAdapter.ViewHolder>{
-    private ArrayList<T> mWords;
+    private List<T> mWords;
     private Context mContext;
 
-    public SpecialWordAdapter(Context mContext, ArrayList<T> mWords) {
-        this.mWords = mWords;
+    public SpecialWordAdapter(Context mContext) {
         this.mContext = mContext;
     }
 
@@ -40,9 +40,20 @@ public class SpecialWordAdapter<T extends Word> extends RecyclerView.Adapter<Spe
         holder.wordButton.setText(currentWord.getWord());
     }
 
+    public void setWords(List<T> mWords) {
+        this.mWords = mWords;
+        notifyDataSetChanged();
+    }
+
     @Override
     public int getItemCount() {
-        return mWords.size();
+        if (mWords != null)
+            return mWords.size();
+        else return 0;
+    }
+
+    public T getWordAtPosition(int position) {
+        return mWords.get(position);
     }
 
     class ViewHolder extends RecyclerView.ViewHolder {

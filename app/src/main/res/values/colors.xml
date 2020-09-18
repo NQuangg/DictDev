@@ -3,4 +3,5 @@
     <color name="colorPrimary">#344955</color>
     <color name="colorPrimaryDark">#232F34</color>
     <color name="colorAccent">#000000</color>
+    <color name="colorSnackbarText">#FFFFFF</color>
 </resources>

@@ -66,8 +66,7 @@ public class WordActivity extends AppCompatActivity {
         inputText = intent.getStringExtra("inputText");
         final Context context = this;
 
-        // favrite
-
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
         // Data is displayed
@@ -81,14 +80,12 @@ public class WordActivity extends AppCompatActivity {
             }
         });
 
-        final ArrayList<ContentWord> contentWords = new ArrayList<>();
+        final ContentWordAdapter mAdapter = new ContentWordAdapter(this);
         ContentWordViewModel mContentWordViewModel = ViewModelProviders.of(this).get(ContentWordViewModel.class);
         mContentWordViewModel.getContentWords(inputText).observe(this, new Observer<List<ContentWord>>() {
             @Override
-            public void onChanged(List<ContentWord> contentWordList) {
-                contentWords.addAll(contentWordList);
-                mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
-                mAdapter = new ContentWordAdapter(context, contentWords);
+            public void onChanged(List<ContentWord> contentWords) {
+                mAdapter.setContentWords(contentWords);
                 mRecyclerView.setAdapter(mAdapter);
                 mAdapter.notifyDataSetChanged();
             }
@@ -174,6 +171,7 @@ public class WordActivity extends AppCompatActivity {
                 textToSpeech.speak(nameWord.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
             }
         });
+
     }
 
     @Override

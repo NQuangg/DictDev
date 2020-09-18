@@ -36,14 +36,17 @@ public class ContentWord {
     @ColumnInfo(name = "example")
     private String example;
 
-    public ContentWord(@NonNull int id, @NonNull String name, @NonNull String standFor, @NonNull String type, @NonNull String meaning, @NonNull String definition, @NonNull String example) {
-        this.id = id;
+    public ContentWord(@NonNull String name, @NonNull String standFor, @NonNull String type, @NonNull String meaning, @NonNull String definition, @NonNull String example) {
         this.name = name;
         this.standFor = standFor;
         this.type = type;
         this.meaning = meaning;
         this.definition = definition;
         this.example = example;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getId() {

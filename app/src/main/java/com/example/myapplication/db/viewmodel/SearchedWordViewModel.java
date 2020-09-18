@@ -26,4 +26,9 @@ public class SearchedWordViewModel extends AndroidViewModel {
     public void insert(SearchedWord searchedWord) {
         mSearchedWordRepository.insert(searchedWord);
     }
+
+    public void delete(SearchedWord searchedWord) {
+        mSearchedWordRepository.delete(searchedWord);
+    }
+
 }

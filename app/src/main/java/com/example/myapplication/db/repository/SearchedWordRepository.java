@@ -30,6 +30,10 @@ public class SearchedWordRepository {
         new insertAsyncTask(mSearchedWordDao).execute(searchedWord);
     }
 
+    public void delete(SearchedWord searchedWord) {
+        new deleteAsyncTask(mSearchedWordDao).execute(searchedWord);
+    }
+
     private static class insertAsyncTask extends AsyncTask<SearchedWord, Void, Void> {
 
         private SearchedWordDao mAsyncTaskDao;
@@ -41,6 +45,21 @@ public class SearchedWordRepository {
         @Override
         protected Void doInBackground(final SearchedWord... params) {
             mAsyncTaskDao.insert(params[0]);
+            return null;
+        }
+    }
+
+    private static class deleteAsyncTask extends AsyncTask<SearchedWord, Void, Void> {
+
+        private SearchedWordDao mAsyncTaskDao;
+
+        deleteAsyncTask(SearchedWordDao dao) {
+            mAsyncTaskDao = dao;
+        }
+
+        @Override
+        protected Void doInBackground(final SearchedWord... params) {
+            mAsyncTaskDao.delete(params[0]);
             return null;
         }
     }

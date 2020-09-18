@@ -18,14 +18,8 @@ import com.example.myapplication.db.model.ContentWord;
 import com.example.myapplication.db.model.FavoriteWord;
 import com.example.myapplication.db.model.SearchedWord;
 import com.example.myapplication.db.model.TitleWord;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.lang.ref.WeakReference;
-import java.util.ArrayList;
 
 @Database(entities = {TitleWord.class, ContentWord.class, SearchedWord.class, FavoriteWord.class}, version = 1, exportSchema = false)
 public abstract class MyDatabase extends RoomDatabase {
@@ -81,32 +75,11 @@ public abstract class MyDatabase extends RoomDatabase {
             mTitleWordDao.deleteAll();
             mContentWordDao.deleteAll();
 
-            Gson gson = new Gson();
-            ArrayList<TitleWord> titleWords = gson.fromJson(readTextFile(weakContext.get().getResources().openRawResource(R.raw.title_word)), new TypeToken<ArrayList<TitleWord>>(){}.getType());
-            ArrayList<ContentWord> contentWords = gson.fromJson(readTextFile(weakContext.get().getResources().openRawResource(R.raw.content_word)), new TypeToken<ArrayList<ContentWord>>(){}.getType());
-
-
-            mTitleWordDao.insertAll(titleWords);
-            mContentWordDao.insertAll(contentWords);
+            mTitleWordDao.insertAll(TitleWordData.getData());
+            mContentWordDao.insertAll(ContentWordData.getData());
 
             return null;
         }
 
-        public static String readTextFile(InputStream inputStream) {
-            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-
-            byte buf[] = new byte[1024];
-            int len;
-            try {
-                while ((len = inputStream.read(buf)) != -1) {
-                    outputStream.write(buf, 0, len);
-                }
-                outputStream.close();
-                inputStream.close();
-            } catch (IOException e) {
-
-            }
-            return outputStream.toString();
-        }
     }
 }

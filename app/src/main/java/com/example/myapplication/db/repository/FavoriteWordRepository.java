@@ -33,11 +33,11 @@ public class FavoriteWordRepository {
     }
 
     public void insert(FavoriteWord favoriteWord) {
-        new FavoriteWordRepository.insertAsyncTask(mFavoriteWordDao).execute(favoriteWord);
+        new insertAsyncTask(mFavoriteWordDao).execute(favoriteWord);
     }
 
     public void delete(FavoriteWord favoriteWord) {
-        new FavoriteWordRepository.deleteAsyncTask(mFavoriteWordDao).execute(favoriteWord);
+        new deleteAsyncTask(mFavoriteWordDao).execute(favoriteWord);
     }
 
     private static class insertAsyncTask extends AsyncTask<FavoriteWord, Void, Void> {

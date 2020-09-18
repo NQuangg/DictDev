@@ -14,20 +14,20 @@ import com.example.myapplication.R;
 import com.example.myapplication.db.model.ContentWord;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.ViewHolder>{
-    private ArrayList<ContentWord> mContentWords;
+    private List<ContentWord> mContentWords;
     private Context mContext;
 
-    public ContentWordAdapter(Context mContext, ArrayList<ContentWord> mContentWords) {
-        this.mContentWords = mContentWords;
+    public ContentWordAdapter(Context mContext) {
         this.mContext = mContext;
     }
 
     @NonNull
     @Override
     public ContentWordAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        return new ContentWordAdapter.ViewHolder(LayoutInflater.from(mContext).
+        return new ViewHolder(LayoutInflater.from(mContext).
                 inflate(R.layout.word_list_item, parent, false));
     }
 
@@ -38,12 +38,16 @@ public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.
         holder.bindTo(currentContent);
     }
 
+    public void setContentWords(List<ContentWord> mWords) {
+        this.mContentWords = mWords;
+        notifyDataSetChanged();
+    }
     @Override
     public int getItemCount() {
         return mContentWords.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
+    static class ViewHolder extends RecyclerView.ViewHolder {
         private TextView standForWord;
         private TextView typeWord;
         private TextView meaningWord;
