@@ -1,12 +1,12 @@
-package com.example.myapplication.db;
+package com.example.myapplication.db.data;
 
 import com.example.myapplication.db.model.ContentWord;
-import com.example.myapplication.db.model.TitleWord;
 
 import java.util.ArrayList;
 
-public class ContentWordData {
+public abstract class ContentWordData {
     private static ArrayList<ContentWord> contentWords = new ArrayList<>();
+
     public static ArrayList<ContentWord> getData() {
         contentWords.add(new ContentWord("AI", "Artificial Intelligence", "noun", "trí tuệ nhân tạo", "", ""));
         contentWords.add(new ContentWord("Artificial Intelligence", "", "noun", "trí tuệ nhân tạo", "", ""));
@@ -143,6 +143,7 @@ public class ContentWordData {
         contentWords.add(new ContentWord("software", "", "noun", "phần mềm", "the programs used by a computer for doing particular jobs", ""));
         contentWords.add(new ContentWord("software architect", "", "noun", "kiến trúc sư phần mềm", "a software architect is a software developer expert who makes high-level design choices and tries to enforce technical standards, including software coding standards, tools, and platforms", ""));
         contentWords.add(new ContentWord("software engineer", "", "noun", "kỹ sư phần mềm", "", ""));
+        contentWords.add(new ContentWord("software engineering", "", "noun", "kỹ nghệ phần mềm", "", ""));
         contentWords.add(new ContentWord("solve", "", "verb", "giải quyết", "", ""));
         contentWords.add(new ContentWord("source code", "", "noun", "mã nguồn", "", ""));
         contentWords.add(new ContentWord("stack", "", "noun", "ngăn xếp", "", ""));
@@ -171,6 +172,7 @@ public class ContentWordData {
         contentWords.add(new ContentWord("server", "", "noun", "máy chủ", "", ""));
         contentWords.add(new ContentWord("package", "", "noun", "gói dữ liệu", "", ""));
         contentWords.add(new ContentWord("load", "", "verb", "tải", "", ""));
+        contentWords.add(new ContentWord("reload", "", "verb", "tải lại", "", ""));
         contentWords.add(new ContentWord("synchronous", "", "adjective", "đồng bộ", "", ""));
         contentWords.add(new ContentWord("asynchronous", "", "adjective", "bất đồng bộ", "", ""));
         contentWords.add(new ContentWord("control", "", "noun", "điều khiển", "", ""));
@@ -204,6 +206,89 @@ public class ContentWordData {
         contentWords.add(new ContentWord("sensor", "", "noun", "cảm biến", "", ""));
         contentWords.add(new ContentWord("complex", "", "adjective", "phức tạp", "", ""));
         contentWords.add(new ContentWord("store", "", "verb", "lưu trữ", "", ""));
+        contentWords.add(new ContentWord("copy", "", "verb", "sao chép", "", ""));
+        contentWords.add(new ContentWord("paste", "", "verb", "dán", "", ""));
+        contentWords.add(new ContentWord("cut", "", "verb", "cắt", "", ""));
+        contentWords.add(new ContentWord("image", "", "noun", "ảnh", "", ""));
+        contentWords.add(new ContentWord("layout", "", "noun", "bố cục, sơ đồ bố trí", "", ""));
+        contentWords.add(new ContentWord("color", "", "noun", "màu", "", ""));
+        contentWords.add(new ContentWord("edit", "", "verb", "biên tập", "", ""));
+        contentWords.add(new ContentWord("function", "", "noun", "hàm, chức năng", "", ""));
+        contentWords.add(new ContentWord("wireframe", "", "noun", "khung dây", "", ""));
+        contentWords.add(new ContentWord("path", "", "noun", "đường dẫn", "", ""));
+        contentWords.add(new ContentWord("method", "", "noun", "phương thức", "", ""));
+        contentWords.add(new ContentWord("method", "", "noun", "phương pháp", "", ""));
+        contentWords.add(new ContentWord("audio", "", "noun", "âm thanh", "", ""));
+        contentWords.add(new ContentWord("audio", "", "noun", "âm thanh", "", ""));
+        contentWords.add(new ContentWord("analyse", "", "verb", "phân tích", "", ""));
+        contentWords.add(new ContentWord("analyst", "", "noun", "nhà phân tích", "", ""));
+        contentWords.add(new ContentWord("analysis", "", "noun", "nhà phân tích", "", ""));
+        contentWords.add(new ContentWord("remote", "", "adjective", "từ xa", "", ""));
+        contentWords.add(new ContentWord("automate", "", "verb", "tự động hóa", "", ""));
+        contentWords.add(new ContentWord("automation", "", "noun", "sự tự động", "", ""));
+        contentWords.add(new ContentWord("hash function", "", "noun", "hàm băm", "", ""));
+        contentWords.add(new ContentWord("core", "", "noun", "lõi", "", ""));
+        contentWords.add(new ContentWord("kernel", "", "noun", "nhân", "", ""));
+        contentWords.add(new ContentWord("virus", "", "noun", "vi rút máy tính", "instructions that are hidden within a computer program and are designed to cause faults or destroy data", ""));
+        contentWords.add(new ContentWord("malware", "", "noun", "mã độc", "software such as a virus specifically designed to damage or gain access to a computer system without the user knowing", ""));
+        contentWords.add(new ContentWord("training", "", "noun", "đào tạo", "", ""));
+        contentWords.add(new ContentWord("Internet of Things ", "", "noun", "Internet vạn vật", "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet", ""));
+        contentWords.add(new ContentWord("IoT", "Internet of Things", "noun", "Internet vạn vật", "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet", ""));
+        contentWords.add(new ContentWord("private", "", "adjective", "riêng tư, cá nhân", "", ""));
+        contentWords.add(new ContentWord("Portable Document Format", "", "noun", "định dạng tài liệu di động", "", ""));
+        contentWords.add(new ContentWord("operating system", "", "noun", "hệ điều hành", "a set of programs that controls the way a computer works and runs other programs", ""));
+        contentWords.add(new ContentWord("OS", "operating system", "noun", "hệ điều hành", "a set of programs that controls the way a computer works and runs other programs", ""));
+        contentWords.add(new ContentWord("JavaScript Object Notation", "", "noun", "", "JSON is a lightweight format for storing and transporting data", ""));
+        contentWords.add(new ContentWord("JSON", "JavaScript Object Notation", "noun", "", "JSON is a set of programs that controls the way a computer works and runs other programs", ""));
+        contentWords.add(new ContentWord("border", "", "noun", "đường viền", "", ""));
+        contentWords.add(new ContentWord("corner", "", "noun", "góc", "", ""));
+        contentWords.add(new ContentWord("contact", "", "verb", "liên hệ, liên lạc", "", ""));
+        contentWords.add(new ContentWord("access", "", "verb", "truy cập", "", ""));
+        contentWords.add(new ContentWord("column", "", "noun", "hàng", "", ""));
+        contentWords.add(new ContentWord("row", "", "noun", "cột", "", ""));
+        contentWords.add(new ContentWord("field", "", "noun", "trường", "", ""));
+        contentWords.add(new ContentWord("contain", "", "verb", "chứa", "", ""));
+        contentWords.add(new ContentWord("protect", "", "verb", "bảo vệ", "", ""));
+        contentWords.add(new ContentWord("context", "", "noun", "bối cảnh", "", ""));
+        contentWords.add(new ContentWord("icon", "", "noun", "biểu tượng", "", ""));
+        contentWords.add(new ContentWord("Structured Query Language", "", "noun", "ngôn ngữ truy vấn mang tính cấu trúc", "", ""));
+        contentWords.add(new ContentWord("SQL", "Structured Query Language", "noun", "ngôn ngữ truy vấn mang tính cấu trúc", "", ""));
+        contentWords.add(new ContentWord("record", "", "noun", "bản ghi", "", ""));
+        contentWords.add(new ContentWord("create", "", "verb", "tạo", "", ""));
+        contentWords.add(new ContentWord("read", "", "verb", "đọc", "", ""));
+        contentWords.add(new ContentWord("delete", "", "verb", "xóa", "", ""));
+        contentWords.add(new ContentWord("constant", "", "adjective", "hằng, không đổi", "", ""));
+        contentWords.add(new ContentWord("insert", "", "verb", "chèn", "", ""));
+        contentWords.add(new ContentWord("regular expression", "", "noun", "biểu thức chính quy", "", ""));
+        contentWords.add(new ContentWord("override", "", "verb", "ghi đè", "", ""));
+        contentWords.add(new ContentWord("overload", "", "verb", "nạp chồng, tải bội", "", ""));
+        contentWords.add(new ContentWord("tutorial", "", "noun", "hướng dẫn", "", ""));
+        contentWords.add(new ContentWord("keyword", "", "noun", "từ khóa", "", ""));
+        contentWords.add(new ContentWord("loop", "", "noun", "vòng lặp", "", ""));
+        contentWords.add(new ContentWord("constructor", "", "noun", "hàm tạo", "", ""));
+        contentWords.add(new ContentWord("event", "", "noun", "sự kiện", "", ""));
+        contentWords.add(new ContentWord("code", "", "noun", "mã", "", ""));
+        contentWords.add(new ContentWord("case", "", "noun", "trường hợp", "", ""));
+        contentWords.add(new ContentWord("tag", "", "noun", "thẻ", "", ""));
+        contentWords.add(new ContentWord("Application Programming Interface", "", "noun", "giao diện lập trình ứng dụng", "An application programming interface (API) is a computing interface which defines interactions between multiple software intermediaries", ""));
+        contentWords.add(new ContentWord("API", "Application Programming Interface", "noun", "giao diện lập trình ứng dụng", "An application programming interface (API) is a computing interface which defines interactions between multiple software intermediaries", ""));
+        contentWords.add(new ContentWord("define", "", "verb", "định nghĩa", "", ""));
+        contentWords.add(new ContentWord("definition", "", "noun", "sự định nghĩa", "", ""));
+        contentWords.add(new ContentWord("guide", "", "noun", "hướng dẫn", "", ""));
+        contentWords.add(new ContentWord("design pattern", "", "noun", "mẫu thiết kế", "", ""));
+        contentWords.add(new ContentWord("Asynchronous JavaScript and XML", "", "noun", "", "is a set of web development techniques using many web technologies on the client side to create asynchronous web applications", ""));
+        contentWords.add(new ContentWord("AJAX", "", "noun", "", "is a set of web development techniques using many web technologies on the client side to create asynchronous web applications", ""));
+        contentWords.add(new ContentWord("platform", "", "noun", "nền tảng", "", ""));
+        contentWords.add(new ContentWord("programming language", "", "noun", "ngôn ngữ lập trình", "", ""));
+        contentWords.add(new ContentWord("procedure", "", "noun", "thủ tục", "", ""));
+        contentWords.add(new ContentWord("type casting", "", "verb", "ép kiểu", "", ""));
+        contentWords.add(new ContentWord("title", "", "noun", "tiêu đề", "", ""));
+        contentWords.add(new ContentWord("data type", "", "noun", "kiểu dữ liệu", "", ""));
+        contentWords.add(new ContentWord("sort", "", "verb", "sắp xếp", "", ""));
+        contentWords.add(new ContentWord("basic", "", "adjective", "cơ bản", "", ""));
+        contentWords.add(new ContentWord("advanced", "", "adjective", "nâng cao", "", ""));
+        contentWords.add(new ContentWord("mistake", "", "adjective", "lỗi sai", "", ""));
+        contentWords.add(new ContentWord("assign", "", "verb", "gán", "", ""));
 
         return contentWords;
     }

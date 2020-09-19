@@ -8,7 +8,7 @@
     tools:context=".activity.WordActivity">
 
     <SearchView
-        android:id="@+id/search_view"
+        android:id="@+id/search_view_word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -25,44 +25,45 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/list_view"
+        android:id="@+id/list_view_word"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/list_background"
         android:elevation="3dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/search_view"
-        app:layout_constraintStart_toStartOf="@+id/search_view"
-        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+        app:layout_constraintEnd_toEndOf="@+id/search_view_word"
+        app:layout_constraintStart_toStartOf="@+id/search_view_word"
+        app:layout_constraintTop_toBottomOf="@+id/search_view_word" />
 
 
     <TextView
-        android:id="@+id/name_word"
-        style="@style/TextAppearance.AppCompat.Headline"
+        android:id="@+id/text_view_word_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="24dp"
-        android:textSize="25sp"
         android:elevation="1dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_view"
+        app:layout_constraintTop_toBottomOf="@+id/search_view_word"
         tools:text="name" />
 
     <TextView
-        android:id="@+id/pronounce_word"
+        android:id="@+id/text_view_pronounce_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:elevation="1dp"
-        app:layout_constraintStart_toStartOf="@+id/name_word"
-        app:layout_constraintTop_toBottomOf="@+id/name_word"
+        app:layout_constraintStart_toStartOf="@+id/text_view_word_name"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_word_name"
         tools:text="pronounce" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/recycler_view_word_content"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -74,17 +75,17 @@
         android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pronounce_word" />
+        app:layout_constraintTop_toBottomOf="@+id/text_view_pronounce_word" />
 
     <Button
-        android:id="@+id/volume_button"
+        android:id="@+id/button_volume"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/ic_volume"
         android:elevation="1dp"
-        app:layout_constraintBottom_toBottomOf="@+id/name_word"
+        app:layout_constraintBottom_toBottomOf="@+id/text_view_word_name"
         app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

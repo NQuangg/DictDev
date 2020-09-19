@@ -8,7 +8,7 @@
     tools:context=".activity.MainActivity">
 
     <SearchView
-        android:id="@+id/search_view"
+        android:id="@+id/search_view_word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -28,16 +28,16 @@
         />
 
     <ListView
-        android:id="@+id/list_view"
+        android:id="@+id/list_view_word"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@drawable/list_background"
         android:elevation="3dp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/search_view"
-        app:layout_constraintStart_toStartOf="@+id/search_view"
-        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+        app:layout_constraintEnd_toEndOf="@+id/search_view_word"
+        app:layout_constraintStart_toStartOf="@+id/search_view_word"
+        app:layout_constraintTop_toBottomOf="@+id/search_view_word" />
 
     <Button
         android:id="@+id/searched_word_button"
@@ -55,7 +55,7 @@
         android:elevation="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+        app:layout_constraintTop_toBottomOf="@+id/search_view_word" />
 
     <Button
         android:id="@+id/favorite_word_button"

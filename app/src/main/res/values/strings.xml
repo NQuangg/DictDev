@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">DictDev</string>
     <string name="searched_word_button_text">Từ đã tra</string>
-    <string name="favorite_word_button_text">Từ yêu thích</string>
+    <string name="favorite_word_button_text">Từ của bạn</string>
     <string name="search_menu_item">search</string>
     <string name="favor_menu_item">favor</string>
 </resources>

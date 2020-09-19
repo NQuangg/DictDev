@@ -4,7 +4,6 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -13,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.myapplication.R;
 import com.example.myapplication.db.model.ContentWord;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.ViewHolder>{
@@ -57,11 +55,11 @@ public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            standForWord = itemView.findViewById(R.id.stand_for_word);
-            typeWord = itemView.findViewById(R.id.type_word);
-            meaningWord = itemView.findViewById(R.id.meaning_word);
-            definitionWord = itemView.findViewById(R.id.definition_word);
-            exampleWord = itemView.findViewById(R.id.example_word);
+            standForWord = itemView.findViewById(R.id.text_view_word_stand_for);
+            typeWord = itemView.findViewById(R.id.text_view_word_type);
+            meaningWord = itemView.findViewById(R.id.text_view_word_meaning);
+            definitionWord = itemView.findViewById(R.id.text_view_word_definition);
+            exampleWord = itemView.findViewById(R.id.text_view_word_example);
         }
 
         void bindTo(ContentWord contentWord){

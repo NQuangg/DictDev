@@ -13,7 +13,7 @@ import java.util.List;
 
 @Dao
 public interface FavoriteWordDao {
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insert(FavoriteWord favoriteWord);
 
     @Delete

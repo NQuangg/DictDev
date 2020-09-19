@@ -4,22 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.KeyEvent;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.Toast;
 
 import com.example.myapplication.R;
 import com.example.myapplication.db.model.SearchedWord;
@@ -44,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        searchView = findViewById(R.id.search_view);
-        listView = findViewById(R.id.list_view);
+        searchView = findViewById(R.id.search_view_word);
+        listView = findViewById(R.id.list_view_word);
         searchedWordButton = findViewById(R.id.searched_word_button);
         favoriteWordButton = findViewById(R.id.favorite_word_button);
 

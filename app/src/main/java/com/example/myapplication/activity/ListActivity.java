@@ -93,7 +93,6 @@ public class ListActivity extends AppCompatActivity {
                                 public void onDismissed(Snackbar transientBottomBar, int event) {                                    super.onDismissed(transientBottomBar, event);
                                     super.onDismissed(transientBottomBar, event);
                                     if (!isUndo) {
-                                        mSearchedWordViewModel.delete(myWord);
                                     }
                                     isUndo = false;
                                 }

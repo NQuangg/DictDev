@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -43,7 +42,6 @@ public class WordActivity extends AppCompatActivity {
     private SearchView searchView;
     private ListView listView;
     private RecyclerView mRecyclerView;
-    private ContentWordAdapter mAdapter;
 
     private boolean isChecked = true;
     private boolean isFavorite = false;
@@ -57,10 +55,10 @@ public class WordActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        nameWord = findViewById(R.id.name_word);
-        pronounceWord = findViewById(R.id.pronounce_word);
-        volumeButton = findViewById(R.id.volume_button);
-        mRecyclerView = findViewById(R.id.recycler_view);
+        nameWord = findViewById(R.id.text_view_word_name);
+        pronounceWord = findViewById(R.id.text_view_pronounce_word);
+        volumeButton = findViewById(R.id.button_volume);
+        mRecyclerView = findViewById(R.id.recycler_view_word_content);
 
         Intent intent = getIntent();
         inputText = intent.getStringExtra("inputText");
@@ -93,8 +91,8 @@ public class WordActivity extends AppCompatActivity {
 
 
         // searchView
-        searchView = findViewById(R.id.search_view);
-        listView = findViewById(R.id.list_view);
+        searchView = findViewById(R.id.search_view_word);
+        listView = findViewById(R.id.list_view_word);
 
         final ArrayList<String> list = new ArrayList<>();
         mTitleWordViewModel.getAllTitleWords().observe(this, new Observer<List<TitleWord>>() {
@@ -219,12 +217,12 @@ public class WordActivity extends AppCompatActivity {
                 if (isFavorite) {
                     mFavoriteWordViewModel.delete(new FavoriteWord(inputText));
                     item.setIcon(R.drawable.ic_unchecked_favor);
-                    Toast.makeText(getApplicationContext(), "Bỏ yêu thích", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Bỏ khỏi từ của bạn", Toast.LENGTH_SHORT).show();
                     isFavorite = false;
                 } else {
                     mFavoriteWordViewModel.insert(new FavoriteWord(inputText));
                     item.setIcon(R.drawable.ic_checked_favor);
-                    Toast.makeText(getApplicationContext(), "Thêm vào yêu thích", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Thêm vào từ của bạn", Toast.LENGTH_SHORT).show();
                     isFavorite = true;
                 }
                 return true;

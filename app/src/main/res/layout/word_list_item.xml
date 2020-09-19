@@ -10,35 +10,38 @@
     android:layout_marginBottom="8dp">
 
     <TextView
-        android:id="@+id/stand_for_word"
+        android:id="@+id/text_view_word_type"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        tools:text="type" />
+
+    <TextView
+        android:id="@+id/text_view_word_stand_for"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:text="standFor" />
 
     <TextView
-        android:id="@+id/type_word"
+        android:id="@+id/text_view_word_meaning"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="type" />
-
-    <TextView
-        android:id="@+id/meaning_word"
-        style="@style/TextAppearance.AppCompat.Subhead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:maxLines="2"
         tools:text="meaning" />
 
     <TextView
-        android:id="@+id/definition_word"
+        android:id="@+id/text_view_word_definition"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:maxLines="2"
         tools:text="definition" />
 
     <TextView
-        android:id="@+id/example_word"
+        android:id="@+id/text_view_word_example"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

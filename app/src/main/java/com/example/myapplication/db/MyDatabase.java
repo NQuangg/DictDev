@@ -9,11 +9,12 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.example.myapplication.R;
 import com.example.myapplication.db.dao.ContentWordDao;
 import com.example.myapplication.db.dao.FavoriteWordDao;
 import com.example.myapplication.db.dao.SearchedWordDao;
 import com.example.myapplication.db.dao.TitleWordDao;
+import com.example.myapplication.db.data.ContentWordData;
+import com.example.myapplication.db.data.TitleWordData;
 import com.example.myapplication.db.model.ContentWord;
 import com.example.myapplication.db.model.FavoriteWord;
 import com.example.myapplication.db.model.SearchedWord;

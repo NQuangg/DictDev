@@ -3,6 +3,7 @@ package com.example.myapplication.db.dao;
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
 import com.example.myapplication.db.model.ContentWord;
@@ -13,7 +14,7 @@ import java.util.List;
 
 @Dao
 public interface ContentWordDao {
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insertAll(ArrayList<ContentWord> contentWords);
 
     @Query("DELETE FROM content_word_table")
