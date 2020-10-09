@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "AI",
+    "pronounce": ""
+  },
+  {
+    "name": "Artificial Intelligence",
+    "pronounce": "/ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/"
+  },
+  {
+    "name": "CIO",
+    "pronounce": ""
+  },
+  {
+    "name": "CS",
+    "pronounce": ""
+  },
+  {
+    "name": "CTO",
+    "pronounce": ""
+  },
+  {
+    "name": "Chief Information Officer",
+    "pronounce": "/ˌtʃiːf ˌɪnfərˈmeɪʃn ɑːfɪsər/"
+  },
+  {
+    "name": "Chief Technology Officer",
+    "pronounce": "/ˌtʃiːf tekˈnɑːlədʒi ɑːfɪsər/"
+  },
+  {
+    "name": "Computer Science",
+    "pronounce": "/kəmˌpjuːtər ˈsaɪəns/"
+  },
+  {
+    "name": "computer scientist",
+    "pronounce": "/kəmˌpjuːtər ˈsaɪəntɪst/"
+  },
+  {
+    "name": "FIFO",
+    "pronounce": ""
+  },
+  {
+    "name": "First in First out",
+    "pronounce": ""
+  },
+  {
+    "name": "GUI",
+    "pronounce": ""
+  },
+  {
+    "name": "Graphical User Interface",
+    "pronounce": "/ˈɡræfɪkl ˈjuːzər/ ˈɪntərfeɪs/"
+  },
+  {
+    "name": "IDE",
+    "pronounce": ""
+  },
+  {
+    "name": "IT",
+    "pronounce": ""
+  },
+  {
+    "name": "Information Technology",
+    "pronounce": "/ˌɪnfərˌmeɪʃn tekˈnɑːlədʒi/"
+  },
+  {
+    "name": "Integrated Development Environment",
+    "pronounce": "/ˈɪntɪɡreɪtɪd dɪˈveləpmənt ɪnˈvaɪrənmənt/"
+  },
+  {
+    "name": "FIFO",
+    "pronounce": ""
+  },
+  {
+    "name": "Last in First out",
+    "pronounce": ""
+  },
+  {
+    "name": "MIS",
+    "pronounce": ""
+  },
+  {
+    "name": "ML",
+    "pronounce": ""
+  },
+  {
+    "name": "Machine Learning",
+    "pronounce": "/məˈʃiːn ˈlɜːrnɪŋ/"
+  },
+  {
+    "name": "Management Information System",
+    "pronounce": "/ˈmænɪdʒməntˌɪnfərˈmeɪʃn ˈsɪstəm/"
+  },
+  {
+    "name": "NaN",
+    "pronounce": ""
+  },
+  {
+    "name": "Not a Number",
+    "pronounce": ""
+  },
+  {
+    "name": "OOP",
+    "pronounce": ""
+  },
+  {
+    "name": "Object Oriented Programming",
+    "pronounce": ""
+  },
+  {
+    "name": "UI",
+    "pronounce": ""
+  },
+  {
+    "name": "UX",
+    "pronounce": ""
+  },
+  {
+    "name": "User Experience",
+    "pronounce": "/ˌjuːzər ɪkˈspɪriəns/"
+  },
+  {
+    "name": "User Interface",
+    "pronounce": "/ˌjuːzər ˈɪntərfeɪs/"
+  },
+  {
+    "name": "VCS",
+    "pronounce": ""
+  },
+  {
+    "name": "Version Control System",
+    "pronounce": ""
+  },
+  {
+    "name": "abstraction",
+    "pronounce": "/æbˈstrækʃn/"
+  },
+  {
+    "name": "account",
+    "pronounce": "/əˈkaʊnt/"
+  },
+  {
+    "name": "algorithm",
+    "pronounce": "/ˈælɡərɪðəm/"
+  },
+  {
+    "name": "application",
+    "pronounce": "/ˌæplɪˈkeɪʃn/"
+  },
+  {
+    "name": "architecture",
+    "pronounce": "/ˈɑːrkɪtektʃər/"
+  },
+  {
+    "name": "argument",
+    "pronounce": "/ˈɑːrɡjumənt/"
+  },
+  {
+    "name": "array",
+    "pronounce": "/əˈreɪ/"
+  },
+  {
+    "name": "binary",
+    "pronounce": "/ˈbaɪnəri/"
+  },
+  {
+    "name": "browser",
+    "pronounce": "/ˈbraʊzər/"
+  },
+  {
+    "name": "bug",
+    "pronounce": "/bʌɡ/"
+  },
+  {
+    "name": "button",
+    "pronounce": "/ˈbʌtn/"
+  },
+  {
+    "name": "class",
+    "pronounce": "/klæs/"
+  },
+  {
+    "name": "command",
+    "pronounce": "/kəˈmænd/"
+  },
+  {
+    "name": "community",
+    "pronounce": "/kəˈmjuːnəti/"
+  },
+  {
+    "name": "compile",
+    "pronounce": "/kəmˈpaɪl/"
+  },
+  {
+    "name": "compiler",
+    "pronounce": "/kəmˈpaɪlər/"
+  },
+  {
+    "name": "component",
+    "pronounce": "/kəmˈpəʊnənt/"
+  },
+  {
+    "name": "computer",
+    "pronounce": "/kəmˈpjuːtər/"
+  },
+  {
+    "name": "conflict",
+    "pronounce": "/ˈkɑːnflɪkt/"
+  },
+  {
+    "name": "connect",
+    "pronounce": "/kəˈnekt/"
+  },
+  {
+    "name": "connection",
+    "pronounce": "/kəˈnekʃn/"
+  },
+  {
+    "name": "convention",
+    "pronounce": "/kənˈvenʃn/"
+  },
+  {
+    "name": "convert",
+    "pronounce": "/kənˈvɜːrt/"
+  },
+  {
+    "name": "copyright",
+    "pronounce": "/ˈkɑːpiraɪt/"
+  },
+  {
+    "name": "customer",
+    "pronounce": "/ˈkʌstəmər/"
+  },
+  {
+    "name": "data",
+    "pronounce": "/ˈdeɪtə/"
+  },
+  {
+    "name": "data science",
+    "pronounce": "/ˈdeɪtə ˈsaɪəns/"
+  },
+  {
+    "name": "data structure",
+    "pronounce": "/ˈdeɪtə ˈstrʌktʃər/"
+  },
+  {
+    "name": "database",
+    "pronounce": "/ˈdɑːtəbeɪs/"
+  },
+  {
+    "name": "deadline",
+    "pronounce": "/ˈdedlaɪn/"
+  },
+  {
+  "name": "debug",
+  "pronounce": "/ˈdiːbʌɡ/"
+  },
+  {
+    "name": "decode",
+    "pronounce": "/diːˈkəʊd/"
+  },
+  {
+    "name": "deploy",
+    "pronounce": "/dɪˈplɔɪ/"
+  },
+  {
+    "name": "design",
+    "pronounce": "/dɪˈzaɪn/"
+  },
+  {
+    "name": "designer",
+    "pronounce": "/dɪˈzaɪnər/"
+  },
+  {
+    "name": "develop",
+    "pronounce": "/dɪˈveləp/"
+  },
+  {
+    "name": "developer",
+    "pronounce": "/dɪˈveləpər/"
+  },
+  {
+    "name": "development",
+    "pronounce": "/dɪˈveləpmənt/"
+  },
+  {
+    "name": "device",
+    "pronounce": "/dɪˈvaɪs/"
+  },
+  {
+    "name": "document",
+    "pronounce": "/ˈdɑːkjumənt/"
+  },
+  {
+    "name": "download",
+    "pronounce": "/ˌdaʊnˈləʊd/"
+  },
+  {
+    "name": "ecosystem",
+    "pronounce": "/ˈiːkəʊsɪstəm/"
+  },
+  {
+    "name": "empty",
+    "pronounce": "/ˈempti/"
+  },
+  {
+    "name": "encapsulation",
+    "pronounce": "/ˈempti/"
+  },
+  {
+    "name": "encode",
+    "pronounce": "/ɪnˈkəʊd/"
+  },
+  {
+    "name": "entity",
+    "pronounce": "/ˈentəti/"
+  },
+  {
+    "name": "environment",
+    "pronounce": "/ɪnˈvaɪrənmənt/"
+  },
+  {
+    "name": "error",
+    "pronounce": "/ˈerər/"
+  },
+  {
+    "name": "exception",
+    "pronounce": "/ɪkˈsepʃn/"
+  },
+  {
+    "name": "execute",
+    "pronounce": "/ˈeksɪkjuːt/"
+  },
+  {
+    "name": "execution",
+    "pronounce": "/ˌeksɪˈkjuːʃn/"
+  },
+  {
+    "name": "file",
+    "pronounce": "/faɪl/"
+  },
+  {
+    "name": "folder",
+    "pronounce": "/ˈfəʊldər/"
+  },
+  {
+    "name": "format",
+    "pronounce": "/ˈfɔːrmæt/"
+  },
+  {
+    "name": "framework",
+    "pronounce": "/ˈfreɪmwɜːrk/"
+  },
+  {
+    "name": "generic programming",
+    "pronounce": "/dʒəˈnerɪkˈprəʊɡræmɪŋ/"
+  },
+  {
+    "name": "graph",
+    "pronounce": "/ɡræf/"
+  },
+  {
+    "name": "hardware",
+    "pronounce": "/ˈhɑːrdwer/"
+  },
+  {
+    "name": "information",
+    "pronounce": "/ˌɪnfərˈmeɪʃn/"
+  },
+  {
+    "name": "inheritance",
+    "pronounce": "/ɪnˈherɪtəns/"
+  },
+  {
+    "name": "input",
+    "pronounce": "/ˈɪnpʊt/"
+  },
+  {
+    "name": "install",
+    "pronounce": "/ɪnˈstɔːl/"
+  },
+  {
+    "name": "installation",
+    "pronounce": "/ˌɪnstəˈleɪʃn/"
+  },
+  {
+    "name": "integrate",
+    "pronounce": "/ˈɪntɪɡreɪt/"
+  },
+  {
+    "name": "interact",
+    "pronounce": "/ˌɪntərˈækt/"
+  },
+  {
+    "name": "interface",
+    "pronounce": "/ˈɪntərfeɪs/"
+  },
+  {
+    "name": "interpret",
+    "pronounce": "/ɪnˈtɜːrprət/"
+  },
+  {
+    "name": "library",
+    "pronounce": "/ˈlaɪbreri/"
+  },
+  {
+    "name": "licence",
+    "pronounce": "/ˈlaɪsns/"
+  },
+  {
+    "name": "license",
+    "pronounce": "/ˈlaɪsns/"
+  },
+  {
+    "name": "lifecycle",
+    "pronounce": "/laɪfˈsaɪkl/"
+  },
+  {
+    "name": "maintain",
+    "pronounce": "/meɪnˈteɪn/"
+  },
+  {
+    "name": "memory",
+    "pronounce": "/ˈmeməri/"
+  },
+  {
+    "name": "mindset",
+    "pronounce": "/maɪndset/"
+  },
+  {
+    "name": "object",
+    "pronounce": "/ˈɑːbdʒɪkt/"
+  },
+  {
+    "name": "offline",
+    "pronounce": "/ˌɔːfˈlaɪn/"
+  },
+  {
+    "name": "online",
+    "pronounce": "/ˌɑːnˈlaɪn/"
+  },
+  {
+    "name": "open source",
+    "pronounce": "/ˌəʊpən ˈsɔːrs/"
+  },
+  {
+    "name": "optimize",
+    "pronounce": "/ˈɑːptɪmaɪz/"
+  },
+  {
+    "name": "output",
+    "pronounce": "/ˈaʊtpʊt/"
+  },
+  {
+    "name": "outsource",
+    "pronounce": "/ˈaʊtsɔːrs/"
+  },
+  {
+    "name": "parameter",
+    "pronounce": "/pəˈræmɪtər/"
+  },
+  {
+    "name": "password",
+    "pronounce": "/password/"
+  },
+  {
+    "name": "pixel",
+    "pronounce": "/ˈpɪksl/"
+  },
+  {
+    "name": "polymorphism",
+    "pronounce": ""
+  },
+  {
+    "name": "port",
+    "pronounce": "/pɔːrt/"
+  },
+  {
+    "name": "principle",
+    "pronounce": "/ˈprɪnsəpl/"
+  },
+  {
+    "name": "priority",
+    "pronounce": "/praɪˈɔːrəti/"
+  },
+  {
+    "name": "process",
+    "pronounce": "/ˈprɑːses/"
+  },
+  {
+    "name": "product",
+    "pronounce": "/ˈprɑːdʌkt/"
+  },
+  {
+    "name": "project",
+    "pronounce": "/ˈprɑːdʒekt/"
+  },
+  {
+    "name": "protocol",
+    "pronounce": "/ˈprəʊtəkɒl/"
+  },
+  {
+    "name": "prototype",
+    "pronounce": "/ˈprəʊtətaɪp/"
+  },
+  {
+    "name": "queue",
+    "pronounce": "/kjuː/"
+  },
+  {
+    "name": "register",
+    "pronounce": "/ˈredʒɪstər/"
+  },
+  {
+    "name": "release",
+    "pronounce": "/rɪˈliːs/"
+  },
+  {
+    "name": "resolution",
+    "pronounce": "/ˌrezəˈluːʃn/"
+  },
+  {
+    "name": "router",
+    "pronounce": "/ˈruːtər/"
+  },
+  {
+    "name": "safety",
+    "pronounce": "/ˈseɪfti/"
+  },
+  {
+    "name": "security",
+    "pronounce": "/sɪˈkjʊərəti/"
+  },
+  {
+    "name": "signal",
+    "pronounce": "/ˈsɪɡnəl/"
+  },
+  {
+    "name": "skill",
+    "pronounce": "/skɪl/"
+  },
+  {
+    "name": "software",
+    "pronounce": "/ftwer/"
+  },
+  {
+    "name": "software architect",
+    "pronounce": "/ˈsɒftweə(r) ˈɑːkɪtekt/"
+  },
+  {
+    "name": "software engineer",
+    "pronounce": "/ˈsɔːftwer endʒɪnɪr/"
+  },
+  {
+    "name": "software engineering",
+    "pronounce": "/ˈsɔːftwer ˌendʒɪˈnɪrɪŋ/"
+  },
+  {
+    "name": "solve",
+    "pronounce": "/sɑːlv/"
+  },
+  {
+    "name": "source code",
+    "pronounce": "/ˈsɔːrs kəʊd/"
+  },
+  {
+    "name": "stack",
+    "pronounce": "/stæk/"
+  },
+  {
+    "name": "string",
+    "pronounce": "/strɪŋ/"
+  },
+  {
+    "name": "syntax",
+    "pronounce": "/ˈsɪntæks/"
+  },
+  {
+    "name": "system",
+    "pronounce": "/ˈsɪstəm/"
+  },
+  {
+    "name": "table",
+    "pronounce": "/ˈteɪbl/"
+  },
+  {
+    "name": "technical",
+    "pronounce": "/ˈteknɪkl/"
+  },
+  {
+    "name": "technique",
+    "pronounce": "/tekˈniːk/"
+  },
+  {
+    "name": "technological",
+    "pronounce": "/ˌteknəˈlɑːdʒɪkl/"
+  },
+  {
+    "name": "technology",
+    "pronounce": "/tekˈnɑːlədʒi/"
+  },
+  {
+    "name": "test",
+    "pronounce": "/test/"
+  },
+  {
+    "name": "thread",
+    "pronounce": "/θred/"
+  },
+  {
+    "name": "tool",
+    "pronounce": "/tuːl/"
+  },
+  {
+    "name": "tree",
+    "pronounce": "/triː/"
+  },
+  {
+    "name": "update",
+    "pronounce": "/ˌʌpˈdeɪt/"
+  },
+  {
+    "name": "use",
+    "pronounce": "/juːz/"
+  },
+  {
+    "name": "user",
+    "pronounce": "/ˈjuːzər/"
+  },
+  {
+    "name": "variable",
+    "pronounce": "/ˈveriəbl/"
+  },
+  {
+    "name": "virtual memory",
+    "pronounce": "/ˌvɜːrtʃuəl ˈmeməri/"
+  },
+  {
+    "name": "website",
+    "pronounce": "/ˈwebsaɪt/"
+  },
+  {
+    "name": "recursion",
+    "pronounce": "/rɪˈkɜːrʒn/"
+  },
+  {
+    "name": "recursive",
+    "pronounce": "/rɪˈkɜːrsɪv/"
+  },
+  {
+    "name": "integer",
+    "pronounce": "/ˈɪntɪdʒər/"
+  },
+  {
+    "name": "microprocessor",
+    "pronounce": "/ˌmaɪkrəʊˈprɑːsesər/"
+  },
+  {
+    "name": "server",
+    "pronounce": "/ˈsɜːrvər/"
+  },
+  {
+    "name": "data package",
+    "pronounce": "/ˈdeɪtə ˈpækɪdʒ/"
+  },
+  {
+    "name": "load",
+    "pronounce": "/ləʊd/"
+  },
+  {
+    "name": "reload",
+    "pronounce": "/ˌriːˈləʊd/"
+  },
+  {
+    "name": "synchronous",
+    "pronounce": "/ˈsɪŋkrənəs/"
+  },
+  {
+    "name": "asynchronous",
+    "pronounce": "/eɪˈsɪŋkrənəs/"
+  },
+  {
+    "name": "control",
+    "pronounce": "/kənˈtrəʊl/"
+  },
+  {
+    "name": "Hypertext Transfer Protocol",
+    "pronounce": ""
+  },
+  {
+    "name": "HTTP",
+    "pronounce": ""
+  },
+  {
+    "name": "wireless",
+    "pronounce": "/ˈwaɪərləs/"
+  },
+  {
+    "name": "wave",
+    "pronounce": "/weɪv/"
+  },
+  {
+    "name": "tablet",
+    "pronounce": "/ˈtæblət/"
+  },
+  {
+    "name": "data storage",
+    "pronounce": "/ˈdeɪtə ˈstɔːrɪdʒ/"
+  },
+  {
+    "name": "compatible",
+    "pronounce": "/kəmˈpætəbl/"
+  },
+  {
+    "name": "analog",
+    "pronounce": "/ˈænəlɔːɡ/"
+  },
+  {
+    "name": "digital",
+    "pronounce": "/ˈdɪdʒɪtl/"
+  },
+  {
+    "name": "layer",
+    "pronounce": "/ˈleɪər/"
+  },
+  {
+    "name": "network",
+    "pronounce": "/ˈnetwɜːrk/"
+  },
+  {
+    "name": "virtual",
+    "pronounce": "/ˈvɜːrtʃuəl/"
+  },
+  {
+    "name": "laptop",
+    "pronounce": "/ˈlæptɑːp/"
+  },
+  {
+    "name": "disk",
+    "pronounce": "/dɪsk/"
+  },
+  {
+    "name": "integer",
+    "pronounce": "/ˈɪntɪdʒər/"
+  },
+  {
+    "name": "character",
+    "pronounce": "/ˈkærəktər/"
+  },
+  {
+    "name": "print",
+    "pronounce": "/prɪnt/"
+  },
+  {
+    "name": "printer",
+    "pronounce": "/ˈprɪntər/"
+  },
+  {
+    "name": "multi-user",
+    "pronounce": "/ˌmʌlti ˈjuːzər/"
+  },
+  {
+    "name": "set",
+    "pronounce": "/set/"
+  },
+  {
+    "name": "HyperText Markup Language",
+    "pronounce": ""
+  },
+  {
+    "name": "HTML",
+    "pronounce": ""
+  },
+  {
+    "name": "eXtensible Markup Language",
+    "pronounce": ""
+  },
+  {
+    "name": "XML",
+    "pronounce": ""
+  },
+  {
+    "name": "task",
+    "pronounce": "/tæsk/"
+  },
+  {
+    "name": "speed",
+    "pronounce": "/spiːd/"
+  },
+  {
+    "name": "administrator",
+    "pronounce": "/ədˈmɪnɪstreɪtər/"
+  },
+  {
+    "name": "sensor",
+    "pronounce": "/ˈsensər/"
+  },
+  {
+    "name": "complex",
+    "pronounce": "/kəmˈpleks/"
+  },
+  {
+    "name": "store",
+    "pronounce": "/stɔːr/"
+  },
+  {
+    "name": "copy",
+    "pronounce": "/ˈkɑːpi/"
+  },
+  {
+    "name": "paste",
+    "pronounce": "/peɪst/"
+  },
+  {
+    "name": "cut",
+    "pronounce": "/kʌt/"
+  },
+  {
+    "name": "image",
+    "pronounce": "/ˈɪmɪdʒ/"
+  },
+  {
+    "name": "layout",
+    "pronounce": "/ˈleɪaʊt/"
+  },
+  {
+    "name": "color",
+    "pronounce": "/ˈkʌlər/"
+  },
+  {
+    "name": "edit",
+    "pronounce": "/ˈedɪt/"
+  },
+  {
+    "name": "function",
+    "pronounce": "/ˈfʌŋkʃn/"
+  },
+  {
+    "name": "wireframe",
+    "pronounce": "/ˈwaɪərfreɪm/"
+  },
+  {
+    "name": "link",
+    "pronounce": "/lɪŋk/"
+  },
+  {
+    "name": "method",
+    "pronounce": "/ˈmeθəd/"
+  },
+  {
+    "name": "audio",
+    "pronounce": "/ˈɔːdiəʊ/"
+  },
+  {
+    "name": "analyse",
+    "pronounce": "/ˈænəlaɪz/"
+  },
+  {
+    "name": "analyst",
+    "pronounce": "/ˈænəlɪst/"
+  },
+  {
+    "name": "analysis",
+    "pronounce": "/əˈnæləsɪs/"
+  },
+  {
+    "name": "remote",
+    "pronounce": "/əˈnæləsɪs/"
+  },
+  {
+    "name": "automate",
+    "pronounce": "/ˈɔːtəmeɪt/"
+  },
+  {
+    "name": "automation",
+    "pronounce": "/ˌɔːtəˈmeɪʃn/"
+  },
+  {
+    "name": "hash function",
+    "pronounce": "/hæʃ ˈfʌŋkʃn/"
+  },
+  {
+    "name": "core",
+    "pronounce": "/kɔːr/"
+  },
+  {
+    "name": "kernel",
+    "pronounce": "/ˈkɜːrnl/"
+  },
+  {
+    "name": "virus",
+    "pronounce": "/ˈvaɪrəs/"
+  },
+  {
+    "name": "malware",
+    "pronounce": "/ˈmælwer/"
+  },
+  {
+    "name": "training",
+    "pronounce": "/ˈtreɪnɪŋ/"
+  },
+  {
+    "name": "Internet of Things",
+    "pronounce": ""
+  },
+  {
+    "name": "IoT",
+    "pronounce": ""
+  },
+  {
+    "name": "private",
+    "pronounce": "/ˈpraɪvət/"
+  },
+  {
+    "name": "Portable Document Format",
+    "pronounce": ""
+  },
+  {
+    "name": "PDF",
+    "pronounce": ""
+  },
+  {
+    "name": "operating system",
+    "pronounce": "/ˈɑːpəreɪtɪŋ sɪstəm/"
+  },
+  {
+    "name": "OS",
+    "pronounce": ""
+  },
+  {
+    "name": "JavaScript Object Notation",
+    "pronounce": ""
+  },
+  {
+    "name": "JSON",
+    "pronounce": ""
+  },
+  {
+    "name": "border",
+    "pronounce": "/ˈbɔːrdər/"
+  },
+  {
+    "name": "corner",
+    "pronounce": "/ˈkɔːrnər/"
+  },
+  {
+    "name": "contact",
+    "pronounce": "/ˈkɑːntækt/"
+  },
+  {
+    "name": "access",
+    "pronounce": "/ˈækses/"
+  },
+  {
+    "name": "column",
+    "pronounce": "/ˈkɑːləm/"
+  },
+  {
+    "name": "row",
+    "pronounce": "/rəʊ/"
+  },
+  {
+    "name": "field",
+    "pronounce": "/fiːld/"
+  },
+  {
+    "name": "contain",
+    "pronounce": "/kənˈteɪn/"
+  },
+  {
+    "name": "protect",
+    "pronounce": "/prəˈtekt/"
+  },
+  {
+    "name": "context",
+    "pronounce": "/ˈkɑːntekst/"
+  },
+  {
+    "name": "icon",
+    "pronounce": "/ˈaɪkɑːn/"
+  },
+  {
+    "name": "Structured Query Language",
+    "pronounce": ""
+  },
+  {
+    "name": "SQL",
+    "pronounce": ""
+  },
+  {
+    "name": "record",
+    "pronounce": "/ˈrekərd/"
+  },
+  {
+    "name": "create",
+    "pronounce": "/kriˈeɪt/"
+  },
+  {
+    "name": "read",
+    "pronounce": "/riːd/"
+  },
+  {
+    "name": "delete",
+    "pronounce": "/dɪˈliːt/"
+  },
+  {
+    "name": "constant",
+    "pronounce": "/ˈkɑːnstənt/"
+  },
+  {
+    "name": "insert",
+    "pronounce": "/ɪnˈsɜːrt/"
+  },
+  {
+    "name": "regular expression",
+    "pronounce": "/ˈreɡjələr ɪkˈspreʃn/"
+  },
+  {
+    "name": "override",
+    "pronounce": "/ˌəʊvərˈraɪd/"
+  },
+  {
+    "name": "overload",
+    "pronounce": "/ˌəʊvərˈləʊd/"
+  },
+  {
+    "name": "tutorial",
+    "pronounce": "/tuːˈtɔːriəl/"
+  },
+  {
+    "name": "keyword",
+    "pronounce": "/ˈkiːwɜːrd/"
+  },
+  {
+    "name": "loop",
+    "pronounce": "/luːp/"
+  },
+  {
+    "name": "constructor",
+    "pronounce": "/kənˈstrʌktər/"
+  },
+  {
+    "name": "event",
+    "pronounce": "/ɪˈvent/"
+  },
+  {
+    "name": "code",
+    "pronounce": "/kəʊd/"
+  },
+  {
+    "name": "case",
+    "pronounce": "/keɪs/"
+  },
+  {
+    "name": "tag",
+    "pronounce": "/tæɡ/"
+  },
+  {
+    "name": "Application Programming Interface",
+    "pronounce": ""
+  },
+  {
+    "name": "API",
+    "pronounce": ""
+  },
+  {
+    "name": "define",
+    "pronounce": "/dɪˈfaɪn/"
+  },
+  {
+    "name": "definition",
+    "pronounce": "/ˌdefɪˈnɪʃn/"
+  },
+  {
+    "name": "guide",
+    "pronounce": "/ɡaɪd/"
+  },
+  {
+    "name": "design pattern",
+    "pronounce": "/dɪˈzaɪn ˈpætərn/"
+  },
+  {
+    "name": "Asynchronous JavaScript and XML",
+    "pronounce": ""
+  },
+  {
+    "name": "AJAX",
+    "pronounce": ""
+  },
+  {
+    "name": "platform",
+    "pronounce": "/ˈplætfɔːrm/"
+  },
+  {
+    "name": "programming language",
+    "pronounce": "/ˈprəʊɡræmɪŋ ˈlæŋɡwɪdʒ/"
+  },
+  {
+    "name": "procedure",
+    "pronounce": "/prəˈsiːdʒər/"
+  },
+  {
+    "name": "type casting",
+    "pronounce": "/taɪp ˈkæstɪŋ/"
+  },
+  {
+    "name": "title",
+    "pronounce": "/ˈtaɪtl/"
+  },
+  {
+    "name": "data type",
+    "pronounce": "/ˈdeɪtə taɪp/"
+  },
+  {
+    "name": "sort",
+    "pronounce": "/sɔːrt/"
+  },
+  {
+    "name": "basic",
+    "pronounce": "/ˈbeɪsɪk/"
+  },
+  {
+    "name": "advanced",
+    "pronounce": "/ədˈvænst/"
+  },
+  {
+    "name": "mistake",
+    "pronounce": "/mɪˈsteɪk/"
+  },
+  {
+    "name": "assign",
+    "pronounce": "/əˈsaɪn/"
+  },
+  {
+    "name": "notification",
+    "pronounce": "/ˌnəʊtɪfɪˈkeɪʃn/"
+  },
+  {
+    "name": "program",
+    "pronounce": "/ˈprəʊɡræm/"
+  },
+  {
+    "name": "implement",
+    "pronounce": "/ˈɪmplɪment/"
+  },
+  {
+    "name": "concept",
+    "pronounce": "/ˈkɑːnsept/"
+  },
+  {
+    "name": "provide",
+    "pronounce": "/prəˈvaɪd/"
+  },
+  {
+    "name": "research",
+    "pronounce": "/ˈriːsɜːrtʃ/"
+  },
+  {
+    "name": "inspect",
+    "pronounce": "/ɪnˈspekt/"
+  },
+  {
+    "name": "toolkit",
+    "pronounce": "/ˈtuːlkɪt/"
+  },
+  {
+    "name": "query",
+    "pronounce": "/ˈkwɪri/"
+  },
+  {
+    "name": "click",
+    "pronounce": "/klɪk/"
+  },
+  {
+    "name": "keyboard",
+    "pronounce": "/ˈkiːbɔːrd/"
+  },
+  {
+    "name": "mouse",
+    "pronounce": "/maʊs/"
+  },
+  {
+    "name": "display",
+    "pronounce": "/dɪˈspleɪ/"
+  },
+  {
+    "name": "size",
+    "pronounce": "/saɪz/"
+  },
+  {
+    "name": "resource",
+    "pronounce": "/ˈriːsɔːrs/"
+  },
+  {
+    "name": "usage",
+    "pronounce": "/ˈjuːsɪdʒ/"
+  },
+  {
+    "name": "reusability",
+    "pronounce": "/reɪˌjuːzəˈbɪləti/"
+  },
+  {
+    "name": "width",
+    "pronounce": "/wɪdθ/"
+  },
+  {
+    "name": "height",
+    "pronounce": "/haɪt/"
+  },
+  {
+    "name": "top",
+    "pronounce": "/tɑːp/"
+  },
+  {
+    "name": "bottom",
+    "pronounce": "/ˈbɑːtəm/"
+  },
+  {
+    "name": "left",
+    "pronounce": "/left/"
+  },
+  {
+    "name": "right",
+    "pronounce": "/raɪt/"
+  },
+  {
+    "name": "course",
+    "pronounce": "/kɔːrs/"
+  },
+  {
+    "name": "search",
+    "pronounce": "/sɜːrtʃ/"
+  },
+  {
+    "name": "service",
+    "pronounce": "/ˈsɜːrvɪs/"
+  },
+  {
+    "name": "parse",
+    "pronounce": "/pɑːrs/"
+  },
+  {
+    "name": "binary tree",
+    "pronounce": "/ˈbaɪnəri triː/"
+  },
+  {
+    "name": "declare",
+    "pronounce": "/dɪˈkler/"
+  },
+  {
+    "name": "declaration",
+    "pronounce": "/ˌdekləˈreɪʃn/"
+  },
+  {
+    "name": "free",
+    "pronounce": "/friː/"
+  },
+  {
+    "name": "embed",
+    "pronounce": "/ɪmˈbed/"
+  },
+  {
+    "name": "Domain Name System",
+    "pronounce": ""
+  },
+  {
+    "name": "DNS",
+    "pronounce": ""
+  },
+  {
+    "name": "matrix",
+    "pronounce": "/ˈmeɪtrɪks/"
+  },
+  {
+    "name": "list",
+    "pronounce": "/lɪst/"
+  },
+  {
+    "name": "retrieve",
+    "pronounce": "/rɪˈtriːv/"
+  },
+  {
+    "name": "multiple",
+    "pronounce": "/ˈmʌltɪpl/"
+  },
+  {
+    "name": "pointer",
+    "pronounce": "/ˈpɔɪntər/"
+  },
+  {
+    "name": "sensor",
+    "pronounce": "/ˈsensər/"
+  },
+  {
+    "name": "concurrent",
+    "pronounce": "/kənˈkɜːrənt/"
+  },
+  {
+    "name": "concurrency",
+    "pronounce": ""
+  },
+  {
+    "name": "parallel",
+    "pronounce": "/ˈpærəlel/"
+  },
+  {
+    "name": "parallelism",
+    "pronounce": "/ˈpærəlelɪzəm/"
+  },
+  {
+    "name": "codebase",
+    "pronounce": "/kəʊd beɪs/"
+  },
+  {
+    "name": "flexible",
+    "pronounce": "/ˈfleksəbl/"
+  },
+  {
+    "name": "complex",
+    "pronounce": "/kəmˈpleks/"
+  },
+  {
+    "name": "Software Development Kit",
+    "pronounce": ""
+  },
+  {
+    "name": "SDK",
+    "pronounce": ""
+  },
+  {
+    "name": "legacy code",
+    "pronounce": ""
+  }
+]

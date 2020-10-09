@@ -18,6 +18,7 @@ public class WebActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
+        webView = findViewById(R.id.web_view);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -25,7 +26,6 @@ public class WebActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String unknownWord = intent.getStringExtra("unknownWord");
 
-        webView = findViewById(R.id.web_view);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webView.setWebViewClient(new WebActivity.CallBack());

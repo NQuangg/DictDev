@@ -24,9 +24,9 @@ import android.widget.Toast;
 
 import com.example.myapplication.R;
 import com.example.myapplication.adapter.ContentWordAdapter;
-import com.example.myapplication.db.model.ContentWord;
-import com.example.myapplication.db.model.FavoriteWord;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.ContentWord;
+import com.example.myapplication.db.model.entity.FavoriteWord;
+import com.example.myapplication.db.model.entity.TitleWord;
 import com.example.myapplication.db.viewmodel.ContentWordViewModel;
 import com.example.myapplication.db.viewmodel.FavoriteWordViewModel;
 import com.example.myapplication.db.viewmodel.TitleWordViewModel;
@@ -36,13 +36,13 @@ import java.util.List;
 import java.util.Locale;
 
 public class WordActivity extends AppCompatActivity {
-    private TextView nameWord;
-    private TextView pronounceWord;
-    private Button volumeButton;
-    private SearchView searchView;
-    private ListView listView;
-    private RecyclerView mRecyclerView;
+    private TextView tvWordName;
+    private TextView tvWordPronounce;
+    private Button btnVolume;
+    private SearchView svWord;
+    private RecyclerView rvWordContent;
 
+    private ListView lvWord;
     private boolean isChecked = true;
     private boolean isFavorite = false;
     private TextToSpeech textToSpeech;
@@ -52,29 +52,28 @@ public class WordActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_word);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-
-        nameWord = findViewById(R.id.text_view_word_name);
-        pronounceWord = findViewById(R.id.text_view_pronounce_word);
-        volumeButton = findViewById(R.id.button_volume);
-        mRecyclerView = findViewById(R.id.recycler_view_word_content);
+        tvWordName = findViewById(R.id.tv_word_name);
+        tvWordPronounce = findViewById(R.id.tv_word_pronounce);
+        btnVolume = findViewById(R.id.btn_volume);
+        rvWordContent = findViewById(R.id.rv_word_content);
 
         Intent intent = getIntent();
         inputText = intent.getStringExtra("inputText");
         final Context context = this;
 
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
+        rvWordContent.setLayoutManager(new LinearLayoutManager(this));
 
         // Data is displayed
         TitleWordViewModel mTitleWordViewModel = ViewModelProviders.of(this).get(TitleWordViewModel.class);
         mTitleWordViewModel.getTitleWord(inputText).observe(this, new Observer<TitleWord>() {
             @Override
             public void onChanged(TitleWord titleWord) {
-                nameWord.setText(titleWord.getName());
-                pronounceWord.setText(titleWord.getPronounce());
-                if (pronounceWord.getText().toString().isEmpty()) pronounceWord.setVisibility(View.GONE);
+                tvWordName.setText(titleWord.getName());
+                tvWordPronounce.setText(titleWord.getPronounce());
+                if (tvWordPronounce.getText().toString().isEmpty()) tvWordPronounce.setVisibility(View.GONE);
             }
         });
 
@@ -84,15 +83,15 @@ public class WordActivity extends AppCompatActivity {
             @Override
             public void onChanged(List<ContentWord> contentWords) {
                 mAdapter.setContentWords(contentWords);
-                mRecyclerView.setAdapter(mAdapter);
+                rvWordContent.setAdapter(mAdapter);
                 mAdapter.notifyDataSetChanged();
             }
         });
 
 
         // searchView
-        searchView = findViewById(R.id.search_view_word);
-        listView = findViewById(R.id.list_view_word);
+        svWord = findViewById(R.id.sv_word);
+        lvWord = findViewById(R.id.lv_word);
 
         final ArrayList<String> list = new ArrayList<>();
         mTitleWordViewModel.getAllTitleWords().observe(this, new Observer<List<TitleWord>>() {
@@ -105,21 +104,21 @@ public class WordActivity extends AppCompatActivity {
         });
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
-        listView.setVisibility(View.GONE);
+        lvWord.setAdapter(adapter);
+        lvWord.setVisibility(View.GONE);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvWord.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 Intent intent = new Intent(getApplicationContext(), WordActivity.class);
-                intent.putExtra("inputText", listView.getItemAtPosition(position).toString());
+                intent.putExtra("inputText", lvWord.getItemAtPosition(position).toString());
                 startActivity(intent);
-                searchView.setQuery("", false);
+                svWord.setQuery("", false);
             }
         });
 
-        searchView.setVisibility(View.GONE);
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        svWord.setVisibility(View.GONE);
+        svWord.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 boolean check = false;
@@ -128,14 +127,14 @@ public class WordActivity extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(), WordActivity.class);
                         intent.putExtra("inputText", item);
                         startActivity(intent);
-                        searchView.setQuery("", false);
+                        svWord.setQuery("", false);
                         check = true;
                     }
                 }
 
                 if (!check) {
                     Toast.makeText(getApplicationContext(), "the title_word does not exist", Toast.LENGTH_LONG).show();
-                    listView.setVisibility(View.GONE);
+                    lvWord.setVisibility(View.GONE);
                 }
                 return false;
             }
@@ -143,10 +142,10 @@ public class WordActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String s) {
                 if (s.isEmpty()) {
-                    listView.setVisibility(View.GONE);
+                    lvWord.setVisibility(View.GONE);
                 } else {
                     adapter.getFilter().filter(s.trim());
-                    listView.setVisibility(View.VISIBLE);
+                    lvWord.setVisibility(View.VISIBLE);
                 }
                 return false;
             }
@@ -163,10 +162,10 @@ public class WordActivity extends AppCompatActivity {
             }
         });
 
-        volumeButton.setOnClickListener(new View.OnClickListener() {
+        btnVolume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textToSpeech.speak(nameWord.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
+                textToSpeech.speak(tvWordName.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
             }
         });
 
@@ -182,7 +181,7 @@ public class WordActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(final Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_word, menu);
+        inflater.inflate(R.menu.menu_activity_word, menu);
 
         FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
         mFavoriteWordViewModel.getFavoriteWords(inputText).observe(this, new Observer<List<FavoriteWord>>() {
@@ -205,10 +204,10 @@ public class WordActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.search:
                 if (isChecked) {
-                    searchView.setVisibility(View.VISIBLE);
+                    svWord.setVisibility(View.VISIBLE);
                     isChecked = false;
                 } else {
-                    searchView.setVisibility(View.GONE);
+                    svWord.setVisibility(View.GONE);
                     isChecked = true;
                 }
                 return true;

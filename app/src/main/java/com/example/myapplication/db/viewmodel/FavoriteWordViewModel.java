@@ -5,10 +5,8 @@ import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.myapplication.db.model.FavoriteWord;
-import com.example.myapplication.db.model.SearchedWord;
+import com.example.myapplication.db.model.entity.FavoriteWord;
 import com.example.myapplication.db.repository.FavoriteWordRepository;
-import com.example.myapplication.db.repository.SearchedWordRepository;
 
 import java.util.List;
 

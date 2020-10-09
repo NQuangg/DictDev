@@ -5,7 +5,7 @@ import android.app.Application;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.TitleWord;
 import com.example.myapplication.db.repository.TitleWordRepository;
 
 import java.util.List;

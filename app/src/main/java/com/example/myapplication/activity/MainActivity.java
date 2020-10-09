@@ -6,6 +6,8 @@ import androidx.lifecycle.ViewModelProviders;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -14,8 +16,10 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.db.model.SearchedWord;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.FavoriteWord;
+import com.example.myapplication.db.model.entity.SearchedWord;
+import com.example.myapplication.db.model.entity.TitleWord;
+import com.example.myapplication.db.viewmodel.FavoriteWordViewModel;
 import com.example.myapplication.db.viewmodel.SearchedWordViewModel;
 import com.example.myapplication.db.viewmodel.TitleWordViewModel;
 
@@ -23,10 +27,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private SearchView searchView;
-    private ListView listView;
-    private Button searchedWordButton;
-    private Button favoriteWordButton;
+    private SearchView svWord;
+    private ListView lvWord;
+    private Button btnWordSearched;
+    private Button btnWordFavorite;
 
     private TitleWordViewModel mTitleWordViewModel;
     private SearchedWordViewModel mSearchedWordViewModel;
@@ -36,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        searchView = findViewById(R.id.search_view_word);
-        listView = findViewById(R.id.list_view_word);
-        searchedWordButton = findViewById(R.id.searched_word_button);
-        favoriteWordButton = findViewById(R.id.favorite_word_button);
+        svWord = findViewById(R.id.sv_word);
+        lvWord = findViewById(R.id.lv_word);
+        btnWordSearched = findViewById(R.id.btn_word_searched);
+        btnWordFavorite = findViewById(R.id.btn_word_favorite);
 
         mTitleWordViewModel = ViewModelProviders.of(this).get(TitleWordViewModel.class);
         mSearchedWordViewModel = ViewModelProviders.of(this).get(SearchedWordViewModel.class);
@@ -55,22 +59,22 @@ public class MainActivity extends AppCompatActivity {
         });
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
-        listView.setAdapter(adapter);
-        listView.setVisibility(View.GONE);
+        lvWord.setAdapter(adapter);
+        lvWord.setVisibility(View.GONE);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        lvWord.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                mSearchedWordViewModel.insert(new SearchedWord(listView.getItemAtPosition(position).toString()));
+                mSearchedWordViewModel.insert(new SearchedWord(lvWord.getItemAtPosition(position).toString()));
                 Intent intent = new Intent(getApplicationContext(), WordActivity.class);
-                intent.putExtra("inputText", listView.getItemAtPosition(position).toString());
+                intent.putExtra("inputText", lvWord.getItemAtPosition(position).toString());
                 startActivity(intent);
-                searchView.setQuery("", false);
+                svWord.setQuery("", false);
             }
         });
 
 
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+        svWord.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 boolean check = false;
@@ -80,14 +84,14 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent(getApplicationContext(), WordActivity.class);
                         intent.putExtra("inputText", item);
                         startActivity(intent);
-                        searchView.setQuery("", false);
+                        svWord.setQuery("", false);
                         check = true;
                     }
                 }
 
                 if (!check) {
-                    listView.setVisibility(View.GONE);
-                    searchView.setQuery("", false);
+                    lvWord.setVisibility(View.GONE);
+                    svWord.setQuery("", false);
                     Intent intent = new Intent(getApplicationContext(), WebActivity.class);
                     intent.putExtra("unknownWord", s);
                     startActivity(intent);
@@ -98,16 +102,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextChange(String s) {
                 if (s.isEmpty()) {
-                    listView.setVisibility(View.GONE);
+                    lvWord.setVisibility(View.GONE);
                 } else {
                     adapter.getFilter().filter(s.trim());
-                    listView.setVisibility(View.VISIBLE);
+                    lvWord.setVisibility(View.VISIBLE);
                 }
                 return false;
             }
         });
 
-        searchedWordButton.setOnClickListener(new View.OnClickListener() {
+        btnWordSearched.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), ListActivity.class);
@@ -116,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        favoriteWordButton.setOnClickListener(new View.OnClickListener() {
+        btnWordFavorite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), ListActivity.class);
@@ -126,6 +130,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // setting menu
+    @Override
+    public boolean onCreateOptionsMenu(final Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_activity_main, menu);
 
-
+        return true;
+    }
 }

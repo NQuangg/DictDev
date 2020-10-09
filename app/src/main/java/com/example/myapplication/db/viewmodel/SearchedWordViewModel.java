@@ -2,11 +2,10 @@ package com.example.myapplication.db.viewmodel;
 
 import android.app.Application;
 
-import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.myapplication.db.model.SearchedWord;
+import com.example.myapplication.db.model.entity.SearchedWord;
 import com.example.myapplication.db.repository.SearchedWordRepository;
 
 import java.util.List;

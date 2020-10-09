@@ -7,8 +7,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.example.myapplication.db.model.FavoriteWord;
-import com.example.myapplication.db.model.SearchedWord;
+import com.example.myapplication.db.model.entity.SearchedWord;
 
 import java.util.List;
 

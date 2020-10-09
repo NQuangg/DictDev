@@ -7,9 +7,7 @@ import androidx.lifecycle.LiveData;
 
 import com.example.myapplication.db.MyDatabase;
 import com.example.myapplication.db.dao.FavoriteWordDao;
-import com.example.myapplication.db.dao.SearchedWordDao;
-import com.example.myapplication.db.model.FavoriteWord;
-import com.example.myapplication.db.model.SearchedWord;
+import com.example.myapplication.db.model.entity.FavoriteWord;
 
 import java.util.List;
 

@@ -6,8 +6,7 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.example.myapplication.db.model.ContentWord;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.ContentWord;
 
 import java.util.ArrayList;
 import java.util.List;

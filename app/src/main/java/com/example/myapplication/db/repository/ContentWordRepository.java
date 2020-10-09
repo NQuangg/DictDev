@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData;
 
 import com.example.myapplication.db.MyDatabase;
 import com.example.myapplication.db.dao.ContentWordDao;
-import com.example.myapplication.db.model.ContentWord;
+import com.example.myapplication.db.model.entity.ContentWord;
 
 import java.util.List;
 

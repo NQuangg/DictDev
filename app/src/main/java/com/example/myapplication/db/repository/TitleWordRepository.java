@@ -1,13 +1,12 @@
 package com.example.myapplication.db.repository;
 
 import android.app.Application;
-import android.os.AsyncTask;
 
 import androidx.lifecycle.LiveData;
 
 import com.example.myapplication.db.MyDatabase;
 import com.example.myapplication.db.dao.TitleWordDao;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.TitleWord;
 
 import java.util.List;
 

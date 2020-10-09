@@ -1,6 +1,6 @@
 package com.example.myapplication.db.data;
 
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.entity.TitleWord;
 
 import java.util.ArrayList;
 
@@ -15,6 +15,7 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("Chief Information Officer", "/ˌtʃiːf ˌɪnfərˈmeɪʃn ɑːfɪsər/"));
         titleWords.add(new TitleWord("Chief Technology Officer", "/ˌtʃiːf tekˈnɑːlədʒi ɑːfɪsər/"));
         titleWords.add(new TitleWord("Computer Science", "/kəmˌpjuːtər ˈsaɪəns/"));
+        titleWords.add(new TitleWord("computer scientist", "/kəmˌpjuːtər ˈsaɪəntɪst/"));
         titleWords.add(new TitleWord("FIFO", ""));
         titleWords.add(new TitleWord("First in First out", ""));
         titleWords.add(new TitleWord("GUI", ""));
@@ -42,7 +43,6 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("abstraction", "/æbˈstrækʃn/"));
         titleWords.add(new TitleWord("account", "/əˈkaʊnt/"));
         titleWords.add(new TitleWord("algorithm", "/ˈælɡərɪðəm/"));
-        titleWords.add(new TitleWord("animation", "/ˌænɪˈmeɪʃn/"));
         titleWords.add(new TitleWord("application", "/ˌæplɪˈkeɪʃn/"));
         titleWords.add(new TitleWord("architecture", "/ˈɑːrkɪtektʃər/"));
         titleWords.add(new TitleWord("argument", "/ˈɑːrɡjumənt/"));
@@ -60,6 +60,7 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("computer", "/kəmˈpjuːtər/"));
         titleWords.add(new TitleWord("conflict", "/ˈkɑːnflɪkt/"));
         titleWords.add(new TitleWord("connect", "/kəˈnekt/"));
+        titleWords.add(new TitleWord("connection", "/kəˈnekʃn/"));
         titleWords.add(new TitleWord("convention", "/kənˈvenʃn/"));
         titleWords.add(new TitleWord("convert", "/kənˈvɜːrt/"));
         titleWords.add(new TitleWord("copyright", "/ˈkɑːpiraɪt/"));
@@ -89,6 +90,7 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("error", "/ˈerər/"));
         titleWords.add(new TitleWord("exception", "/ɪkˈsepʃn/"));
         titleWords.add(new TitleWord("execute", "/ˈeksɪkjuːt/"));
+        titleWords.add(new TitleWord("execution", "/ˌeksɪˈkjuːʃn/"));
         titleWords.add(new TitleWord("file", "/faɪl/"));
         titleWords.add(new TitleWord("folder", "/ˈfəʊldər/"));
         titleWords.add(new TitleWord("format", "/ˈfɔːrmæt/"));
@@ -120,7 +122,7 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("output", "/ˈaʊtpʊt/"));
         titleWords.add(new TitleWord("outsource", "/ˈaʊtsɔːrs/"));
         titleWords.add(new TitleWord("parameter", "/pəˈræmɪtər/"));
-        titleWords.add(new TitleWord("password", "/ˈpæswɜːrd/"));
+        titleWords.add(new TitleWord("password", "/password/"));
         titleWords.add(new TitleWord("performance", "/pərˈfɔːrməns/"));
         titleWords.add(new TitleWord("pixel", "/ˈpɪksl/"));
         titleWords.add(new TitleWord("polymorphism", ""));
@@ -163,6 +165,7 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("tree", "/triː/"));
         titleWords.add(new TitleWord("update", "/ˌʌpˈdeɪt/"));
         titleWords.add(new TitleWord("upgrade", "/ˌʌpˈɡreɪd/"));
+        titleWords.add(new TitleWord("use", "/juːz/"));
         titleWords.add(new TitleWord("user", "/ˈjuːzər/"));
         titleWords.add(new TitleWord("variable", "/ˈveriəbl/"));
         titleWords.add(new TitleWord("virtual memory", "/ˌvɜːrtʃuəl ˈmeməri/"));
@@ -290,6 +293,45 @@ public abstract class TitleWordData {
         titleWords.add(new TitleWord("advanced", "/ədˈvænst/"));
         titleWords.add(new TitleWord("mistake", "/mɪˈsteɪk/"));
         titleWords.add(new TitleWord("assign", "/əˈsaɪn/"));
+        titleWords.add(new TitleWord("notification", "/ˌnəʊtɪfɪˈkeɪʃn/"));
+        titleWords.add(new TitleWord("program", "/ˈprəʊɡræm/"));
+        titleWords.add(new TitleWord("implement", "/ˈɪmplɪment/"));
+        titleWords.add(new TitleWord("concept", "/ˈkɑːnsept/"));
+        titleWords.add(new TitleWord("provide", "/prəˈvaɪd/"));
+        titleWords.add(new TitleWord("research", "/ˈriːsɜːrtʃ/"));
+        titleWords.add(new TitleWord("inspect", "/ɪnˈspekt/"));
+        titleWords.add(new TitleWord("toolkit", "/ˈtuːlkɪt/"));
+        titleWords.add(new TitleWord("query", "/ˈkwɪri/"));
+        titleWords.add(new TitleWord("click", "/klɪk/"));
+        titleWords.add(new TitleWord("keyboard", "/ˈkiːbɔːrd/"));
+        titleWords.add(new TitleWord("mouse", "/maʊs/"));
+        titleWords.add(new TitleWord("display", "/dɪˈspleɪ/"));
+        titleWords.add(new TitleWord("size", "/saɪz/"));
+        titleWords.add(new TitleWord("resource", "/ˈriːsɔːrs/"));
+        titleWords.add(new TitleWord("usage", "/ˈjuːsɪdʒ/"));
+        titleWords.add(new TitleWord("reusability", "/reɪˌjuːzəˈbɪləti/"));
+        titleWords.add(new TitleWord("width", "/wɪdθ/"));
+        titleWords.add(new TitleWord("height", "/haɪt/"));
+        titleWords.add(new TitleWord("top", "/tɑːp/"));
+        titleWords.add(new TitleWord("bottom", "/ˈbɑːtəm/"));
+        titleWords.add(new TitleWord("left", "/left/"));
+        titleWords.add(new TitleWord("right", "/raɪt/"));
+        titleWords.add(new TitleWord("course", "/kɔːrs/"));
+        titleWords.add(new TitleWord("search", "/sɜːrtʃ/"));
+        titleWords.add(new TitleWord("service", "/ˈsɜːrvɪs/"));
+        titleWords.add(new TitleWord("parse", "/pɑːrs/"));
+        titleWords.add(new TitleWord("binary tree", "/ˈbaɪnəri triː/"));
+        titleWords.add(new TitleWord("declare", "/dɪˈkler/"));
+        titleWords.add(new TitleWord("declaration", "/ˌdekləˈreɪʃn/"));
+        titleWords.add(new TitleWord("free", "/friː/"));
+        titleWords.add(new TitleWord("embed", "/ɪmˈbed/"));
+        titleWords.add(new TitleWord("Domain Name System", ""));
+        titleWords.add(new TitleWord("DNS", ""));
+        titleWords.add(new TitleWord("matrix", "/ˈmeɪtrɪks/"));
+        titleWords.add(new TitleWord("list", "/lɪst/"));
+        titleWords.add(new TitleWord("retrieve", "/rɪˈtriːv/"));
+        titleWords.add(new TitleWord("multiple", "/ˈmʌltɪpl/"));
+
 
 
         return titleWords;

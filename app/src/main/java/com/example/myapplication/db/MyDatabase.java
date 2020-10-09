@@ -7,22 +7,28 @@ import androidx.annotation.NonNull;
 import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
+import androidx.room.TypeConverters;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.example.myapplication.db.dao.ContentWordDao;
 import com.example.myapplication.db.dao.FavoriteWordDao;
 import com.example.myapplication.db.dao.SearchedWordDao;
 import com.example.myapplication.db.dao.TitleWordDao;
-import com.example.myapplication.db.data.ContentWordData;
-import com.example.myapplication.db.data.TitleWordData;
-import com.example.myapplication.db.model.ContentWord;
-import com.example.myapplication.db.model.FavoriteWord;
-import com.example.myapplication.db.model.SearchedWord;
-import com.example.myapplication.db.model.TitleWord;
+import com.example.myapplication.db.model.Converters;
+import com.example.myapplication.db.model.entity.ContentWord;
+import com.example.myapplication.db.model.entity.FavoriteWord;
+import com.example.myapplication.db.model.entity.SearchedWord;
+import com.example.myapplication.db.model.entity.TitleWord;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.lang.ref.WeakReference;
+import java.util.ArrayList;
 
 @Database(entities = {TitleWord.class, ContentWord.class, SearchedWord.class, FavoriteWord.class}, version = 1, exportSchema = false)
+@TypeConverters(Converters.class)
 public abstract class MyDatabase extends RoomDatabase {
     public abstract TitleWordDao titleWordDao();
     public abstract ContentWordDao contentWordDao();
@@ -76,11 +82,30 @@ public abstract class MyDatabase extends RoomDatabase {
             mTitleWordDao.deleteAll();
             mContentWordDao.deleteAll();
 
-            mTitleWordDao.insertAll(TitleWordData.getData());
-            mContentWordDao.insertAll(ContentWordData.getData());
+            Gson gson = new Gson();
+            ArrayList<TitleWord> titleWords = gson.fromJson(loadJSONFromAsset("TitleWord.json"), new TypeToken<ArrayList<TitleWord>>() {}.getType());
+            ArrayList<ContentWord> contentWords = gson.fromJson(loadJSONFromAsset("ContentWord.json"), new TypeToken<ArrayList<ContentWord>>() {}.getType());
+
+            mTitleWordDao.insertAll(titleWords);
+            mContentWordDao.insertAll(contentWords);
 
             return null;
         }
 
+        public String loadJSONFromAsset(String path) {
+            String json = null;
+            try {
+                InputStream is = weakContext.get().getAssets().open(path);
+                int size = is.available();
+                byte[] buffer = new byte[size];
+                is.read(buffer);
+                is.close();
+                json = new String(buffer, "UTF-8");
+            } catch (IOException ex) {
+                ex.printStackTrace();
+                return null;
+            }
+            return json;
+        }
     }
 }

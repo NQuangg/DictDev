@@ -7,11 +7,14 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.myapplication.R;
-import com.example.myapplication.db.model.ContentWord;
+import com.example.myapplication.db.model.ImageWord;
+import com.example.myapplication.db.model.entity.ContentWord;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.ViewHolder>{
@@ -26,7 +29,7 @@ public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.
     @Override
     public ContentWordAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         return new ViewHolder(LayoutInflater.from(mContext).
-                inflate(R.layout.word_list_item, parent, false));
+                inflate(R.layout.content_word_item, parent, false));
     }
 
     @Override
@@ -36,38 +39,50 @@ public class ContentWordAdapter extends RecyclerView.Adapter<ContentWordAdapter.
         holder.bindTo(currentContent);
     }
 
-    public void setContentWords(List<ContentWord> mWords) {
-        this.mContentWords = mWords;
-        notifyDataSetChanged();
-    }
     @Override
     public int getItemCount() {
         return mContentWords.size();
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView standForWord;
-        private TextView typeWord;
-        private TextView meaningWord;
-        private TextView definitionWord;
-        private TextView exampleWord;
+    public void setContentWords(List<ContentWord> mWords) {
+        this.mContentWords = mWords;
+        notifyDataSetChanged();
+    }
+
+
+    class ViewHolder extends RecyclerView.ViewHolder {
+        private TextView tvWordtype;
+        private TextView tvWordstandFor;
+        private TextView tvWordMeaning;
+        private TextView tvWordDefinition;
+        private RecyclerView rvImage;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            standForWord = itemView.findViewById(R.id.text_view_word_stand_for);
-            typeWord = itemView.findViewById(R.id.text_view_word_type);
-            meaningWord = itemView.findViewById(R.id.text_view_word_meaning);
-            definitionWord = itemView.findViewById(R.id.text_view_word_definition);
-            exampleWord = itemView.findViewById(R.id.text_view_word_example);
+            tvWordtype = itemView.findViewById(R.id.tv_word_type);
+            tvWordstandFor = itemView.findViewById(R.id.tv_word_standFor);
+            tvWordMeaning = itemView.findViewById(R.id.tv_word_meaning);
+            tvWordDefinition = itemView.findViewById(R.id.tv_word_definition);
+            rvImage = itemView.findViewById(R.id.rv_image);
         }
 
         void bindTo(ContentWord contentWord){
-            addData(standForWord, contentWord.getStandFor());
-            addData(typeWord, contentWord.getType());
-            addData(meaningWord, contentWord.getMeaning());
-            addData(definitionWord, contentWord.getDefinition());
-            addData(exampleWord, contentWord.getExample());
+            addData(tvWordtype, contentWord.getType());
+            addData(tvWordstandFor, contentWord.getStandFor());
+            addData(tvWordMeaning, contentWord.getMeaning());
+            addData(tvWordDefinition, contentWord.getDefinition());
+
+            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(mContext, LinearLayoutManager.HORIZONTAL, false);
+            rvImage.setLayoutManager(linearLayoutManager);
+
+            ArrayList<ImageWord> imageWords = contentWord.getImages();
+            if (!imageWords.isEmpty()) {
+                ImageListAdapter imageListAdapter = new ImageListAdapter(mContext, imageWords);
+                rvImage.setAdapter(imageListAdapter);
+            } else {
+                rvImage.setVisibility(View.GONE);
+            }
         }
 
         void addData(TextView textView, String data) {
