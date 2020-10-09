@@ -20,7 +20,7 @@ public interface FavoriteWordDao {
     void delete(FavoriteWord favoriteWord);
 
     @Query("SELECT * FROM favorite_word_table WHERE word = :nameWord")
-    LiveData<List<FavoriteWord>> getFavoriteWords(String nameWord);
+    LiveData<FavoriteWord> getFavoriteWord(String nameWord);
 
     @Query("SELECT * FROM favorite_word_table")
     LiveData<List<FavoriteWord>> getAllFavoriteWords();

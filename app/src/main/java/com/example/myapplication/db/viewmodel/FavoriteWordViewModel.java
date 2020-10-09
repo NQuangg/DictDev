@@ -20,7 +20,7 @@ public class FavoriteWordViewModel extends AndroidViewModel {
         mAllFavoriteWords = mFavoriteWordRepository.getAllFavoriteWords();
     }
 
-    public LiveData<List<FavoriteWord>> getFavoriteWords(String nameWord) { return mFavoriteWordRepository.getFavoriteWords(nameWord); }
+    public LiveData<FavoriteWord> getFavoriteWord(String nameWord) { return mFavoriteWordRepository.getFavoriteWord(nameWord); }
 
     public LiveData<List<FavoriteWord>> getAllFavoriteWords() { return mAllFavoriteWords; }
 

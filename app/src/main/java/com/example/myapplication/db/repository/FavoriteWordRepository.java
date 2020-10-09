@@ -22,8 +22,8 @@ public class FavoriteWordRepository {
         mAllFavoriteWords = mFavoriteWordDao.getAllFavoriteWords();
     }
 
-    public LiveData<List<FavoriteWord>> getFavoriteWords(String nameWord) {
-        return db.favoriteWordDao().getFavoriteWords(nameWord);
+    public LiveData<FavoriteWord> getFavoriteWord(String nameWord) {
+        return db.favoriteWordDao().getFavoriteWord(nameWord);
     }
 
     public LiveData<List<FavoriteWord>> getAllFavoriteWords() {

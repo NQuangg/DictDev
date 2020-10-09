@@ -184,10 +184,10 @@ public class WordActivity extends AppCompatActivity {
         inflater.inflate(R.menu.menu_activity_word, menu);
 
         FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
-        mFavoriteWordViewModel.getFavoriteWords(inputText).observe(this, new Observer<List<FavoriteWord>>() {
+        mFavoriteWordViewModel.getFavoriteWord(inputText).observe(this, new Observer<FavoriteWord>() {
             @Override
-            public void onChanged(List<FavoriteWord> favoriteWords) {
-                if (favoriteWords.isEmpty()) {
+            public void onChanged(FavoriteWord favoriteWord) {
+                if (favoriteWord == null) {
                     menu.getItem(1).setIcon(R.drawable.ic_unchecked_favor);
                     isFavorite = false;
                 } else {
