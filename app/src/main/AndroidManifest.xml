@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.dictdev">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,16 +13,22 @@
         android:roundIcon="@mipmap/ic_dictionary_app_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name="com.example.dictdev.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.WordActivity" />
-        <activity android:name=".activity.WebActivity" />
-        <activity android:name=".activity.ListActivity" />
+        <activity android:name="com.example.dictdev.activity.WordActivity" />
+        <activity android:name="com.example.dictdev.activity.WebActivity" />
+        <activity android:name="com.example.dictdev.activity.ListActivity" />
+        <activity android:name="com.example.dictdev.activity.LoginActivity"
+            android:parentActivityName="com.example.dictdev.activity.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity"/>
+        </activity>
+
     </application>
 
 </manifest>
