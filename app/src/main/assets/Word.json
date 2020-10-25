@@ -1,0 +1,5792 @@
+[
+  {
+    "name": "AI",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Artificial Intelligence",
+        "type": "n.",
+        "meaning": "trí tuệ nhân tạo",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "image1.jpg"
+          },
+          {
+            "imageName": "image2.jpg"
+          },
+          {
+            "imageName": "image3.jpg"
+          },
+          {
+            "imageName": "image4.jpg"
+          },
+          {
+            "imageName": "image5.jpg"
+          },
+          {
+            "imageName": "image6.jpg"
+          },
+          {
+            "imageName": "image7.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Artificial Intelligence",
+    "pronounce": "/ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "AI",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trí tuệ nhân tạo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "CIO",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Chief Information Officer",
+        "type": "n.",
+        "meaning": "giám đốc công nghệ thông tin",
+        "definition": "a CIO is a job title commonly given to the most senior executive in an enterprise who works with information technology and computer systems, in order to support enterprise goals",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "CS",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Computer Science",
+        "type": "n.",
+        "meaning": "khoa học máy tính",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "CTO",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Chief Technology Officer",
+        "type": "n.",
+        "meaning": "giám đốc công nghệ",
+        "definition": "a CTO is an executive-level position in a company or other entity whose occupation is focused on the scientific and technological issues within an organization",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Chief Information Officer",
+    "pronounce": "/ˌtʃiːf ˌɪnfərˈmeɪʃn ɑːfɪsər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "CIO",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giám đốc công nghệ thông tin",
+        "definition": "a CIO is a job title commonly given to the most senior executive in an enterprise who works with information technology and computer systems, in order to support enterprise goals",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Chief Technology Officer",
+    "pronounce": "/ˌtʃiːf tekˈnɑːlədʒi ɑːfɪsər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "CTO",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giám đốc công nghệ",
+        "definition": "a CTO is an executive-level position in a company or other entity whose occupation is focused on the scientific and technological issues within an organization",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Computer Science",
+    "pronounce": "/kəmˌpjuːtər ˈsaɪəns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "CS",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khoa học máy tính",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "computer scientist",
+    "pronounce": "/kəmˌpjuːtər ˈsaɪəntɪst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "CS",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khoa học máy tính",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "FIFO",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "First in First out",
+        "type": "n.",
+        "meaning": "vào trước ra trước",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "First in First out",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "FIFO",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "vào trước ra trước",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "GUI",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Graphical User Interface",
+        "type": "n.",
+        "meaning": "giao diện đồ họa người dùng",
+        "definition": "a way of giving instructions to a computer using things that can be seen on the screen such as symbols and menus",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Graphical User Interface",
+    "pronounce": "/ˈɡræfɪkl ˈjuːzər/ ˈɪntərfeɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao diện đồ họa người dùng",
+        "definition": "a way of giving instructions to a computer using things that can be seen on the screen such as symbols and menus",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "IDE",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Integrated Development Environment",
+        "type": "n.",
+        "meaning": "môi trường phát triển tích hợp",
+        "definition": "a software for building applications that combines common developer tools into a single graphical user interface (GUI)",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "IT",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Information Technology",
+        "type": "n.",
+        "meaning": "công nghệ thông tin",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Information Technology",
+    "pronounce": "/ˌɪnfərˌmeɪʃn tekˈnɑːlədʒi/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "IT",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "công nghệ thông tin",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Integrated Development Environment",
+    "pronounce": "/ˈɪntɪɡreɪtɪd dɪˈveləpmənt ɪnˈvaɪrənmənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "IDE",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "môi trường phát triển tích hợp",
+        "definition": "a software for building applications that combines common developer tools into a single graphical user interface (GUI)",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "LIFO",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Last in First out",
+        "type": "n.",
+        "meaning": "vào sau ra trước",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Last in First out",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "LIFO",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "vào sau ra trước",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "MIS",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Management Information System",
+        "type": "n.",
+        "meaning": "hệ thống thông tin quản lý",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "ML",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Machine Learning",
+        "type": "n.",
+        "meaning": "học máy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning",
+    "pronounce": "/məˈʃiːn ˈlɜːrnɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "ML",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "học máy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Management Information System",
+    "pronounce": "/ˈmænɪdʒməntˌɪnfərˈmeɪʃn ˈsɪstəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "MIS",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ thống thông tin quản lý",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "NaN",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Not a Number",
+        "type": "n.",
+        "meaning": "không phải số",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Not a Number",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "NaN",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "không phải số",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "OOP",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Object Oriented Programming",
+        "type": "n.",
+        "meaning": "lập trình hướng đối tượng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Object Oriented Programming",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "OOP",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lập trình hướng đối tượng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "UI",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "User Interface",
+        "type": "n.",
+        "meaning": "giao diện người dùng",
+        "definition": "the way a computer gives information to a user or receives instructions from a user",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "UX",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "User Experience",
+        "type": "n.",
+        "meaning": "trải nghiệm người dùng",
+        "definition": "what it is like for somebody to use a particular product such as a website, for example how easy or pleasant it is to use",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "User Experience",
+    "pronounce": "/ˌjuːzər ɪkˈspɪriəns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "UX",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trải nghiệm người dùng",
+        "definition": "what it is like for somebody to use a particular product such as a website, for example how easy or pleasant it is to use",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "User Interface",
+    "pronounce": "/ˌjuːzər ˈɪntərfeɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "UI",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao diện người dùng",
+        "definition": "the way a computer gives information to a user or receives instructions from a user",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "VCS",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Version Control System",
+        "type": "n.",
+        "meaning": "hệ thống quản lí phiên bản",
+        "definition": "a category of software tools that help a software team manage changes to source code over time",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Version Control System",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "VCS",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ thống quản lí phiên bản",
+        "definition": "a category of software tools that help a software team manage changes to source code over time",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "abstraction",
+    "pronounce": "/æbˈstrækʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tính trừu tượng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "account",
+    "pronounce": "/əˈkaʊnt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tài khoản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "algorithm",
+    "pronounce": "/ˈælɡərɪðəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thuật toán, giải thuật",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "application",
+    "pronounce": "/ˌæplɪˈkeɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ứng dụng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "architecture",
+    "pronounce": "/ˈɑːrkɪtektʃər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kiến trúc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "argument",
+    "pronounce": "/ˈɑːrɡjumənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đối số",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "array",
+    "pronounce": "/əˈreɪ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mảng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "binary",
+    "pronounce": "/ˈbaɪnəri/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhị phân",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "browser",
+    "pronounce": "/ˈbraʊzər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trình duyệt",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "bug",
+    "pronounce": "/bʌɡ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lỗi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "button",
+    "pronounce": "/ˈbʌtn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nút bấm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "class",
+    "pronounce": "/klæs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lớp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "command",
+    "pronounce": "/kəˈmænd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "câu lệnh",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "community",
+    "pronounce": "/kəˈmjuːnəti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cộng đồng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "compile",
+    "pronounce": "/kəmˈpaɪl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "biên dịch",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "compiler",
+    "pronounce": "/kəmˈpaɪlər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trình biên dịch",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "component",
+    "pronounce": "/kəmˈpəʊnənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thành phần",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "computer",
+    "pronounce": "/kəmˈpjuːtər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "máy tính",
+        "definition": "a computer is an electronic machine that can store, organize and find information, do processes with numbers and other data, and control other machines",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "conflict",
+    "pronounce": "/ˈkɑːnflɪkt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "xung đột",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "connect",
+    "pronounce": "/kəˈnekt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "kết nối",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "connection",
+    "pronounce": "/kəˈnekʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự kết nối",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "convention",
+    "pronounce": "/kənˈvenʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "quy ước, quy tắc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "convert",
+    "pronounce": "/kənˈvɜːrt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "chuyển đổi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "copyright",
+    "pronounce": "/ˈkɑːpiraɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bản quyền",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "customer",
+    "pronounce": "/ˈkʌstəmər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khách hàng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "data",
+    "pronounce": "/ˈdeɪtə/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "dữ liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "data science",
+    "pronounce": "/ˈdeɪtə ˈsaɪəns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khoa học dữ liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "data structure",
+    "pronounce": "/ˈdeɪtə ˈstrʌktʃər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cấu trúc dữ liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "database",
+    "pronounce": "/ˈdɑːtəbeɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cơ sở dữ liệu",
+        "definition": "a database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "deadline",
+    "pronounce": "/ˈdedlaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hạn chót",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "debug",
+    "pronounce": "/ˈdiːbʌɡ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "gỡ lỗi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "decode",
+    "pronounce": "/diːˈkəʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "giải mã",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "deploy",
+    "pronounce": "/dɪˈplɔɪ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "triển khai",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "design",
+    "pronounce": "/dɪˈzaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "thiết kế",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "designer",
+    "pronounce": "/dɪˈzaɪnər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhà thiết kế",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "develop",
+    "pronounce": "/dɪˈveləp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "phát triển",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "developer",
+    "pronounce": "/dɪˈveləpər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhà phát triển",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "development",
+    "pronounce": "/dɪˈveləpmənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự phát triển",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "device",
+    "pronounce": "/dɪˈvaɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thiết bị",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "document",
+    "pronounce": "/ˈdɑːkjumənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tài liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "download",
+    "pronounce": "/ˌdaʊnˈləʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tải xuống",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "ecosystem",
+    "pronounce": "/ˈiːkəʊsɪstəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ sinh thái",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "empty",
+    "pronounce": "/ˈempti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "rỗng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "encapsulation",
+    "pronounce": "/ˈempti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tính bao đóng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "encode",
+    "pronounce": "/ɪnˈkəʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "mã hóa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "entity",
+    "pronounce": "/ˈentəti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thực thể",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "environment",
+    "pronounce": "/ɪnˈvaɪrənmənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "môi trường",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "error",
+    "pronounce": "/ˈerər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lỗi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "exception",
+    "pronounce": "/ɪkˈsepʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngoại lệ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "execute",
+    "pronounce": "/ˈeksɪkjuːt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "thực thi, thi hành",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "execution",
+    "pronounce": "/ˌeksɪˈkjuːʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự thực thi, sự thi hành",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "file",
+    "pronounce": "/faɪl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tệp tin",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "folder",
+    "pronounce": "/ˈfəʊldər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thư mục",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "format",
+    "pronounce": "/ˈfɔːrmæt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "định dạng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "framework",
+    "pronounce": "/ˈfreɪmwɜːrk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khung phần mềm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "generic programming",
+    "pronounce": "/dʒəˈnerɪkˈprəʊɡræmɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lập trình tổng quát",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "graph",
+    "pronounce": "/ɡræf/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đồ thị",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "hardware",
+    "pronounce": "/ˈhɑːrdwer/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "phần cứng",
+        "definition": "the machines and electronic parts in a computer or other electronic system",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "information",
+    "pronounce": "/ˌɪnfərˈmeɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thông tin",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "inheritance",
+    "pronounce": "/ɪnˈherɪtəns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tính kế thừa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "input",
+    "pronounce": "/ˈɪnpʊt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đầu vào",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "install",
+    "pronounce": "/ɪnˈstɔːl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "cài đặt",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "installation",
+    "pronounce": "/ˌɪnstəˈleɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự cài đặt",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "integrate",
+    "pronounce": "/ˈɪntɪɡreɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tích hợp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "interact",
+    "pronounce": "/ˌɪntərˈækt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tương tác",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "interface",
+    "pronounce": "/ˈɪntərfeɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao diện",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "interpret",
+    "pronounce": "/ɪnˈtɜːrprət/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao diện",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "library",
+    "pronounce": "/ˈlaɪbreri/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thư viện",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "licence",
+    "pronounce": "/ˈlaɪsns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giấy phép",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "license",
+    "pronounce": "/ˈlaɪsns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "cấp phép",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "lifecycle",
+    "pronounce": "/laɪfˈsaɪkl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "vòng đời",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "maintain",
+    "pronounce": "/meɪnˈteɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "bảo trì",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "memory",
+    "pronounce": "/ˈmeməri/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ nhớ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "mindset",
+    "pronounce": "/maɪndset/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tư duy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "object",
+    "pronounce": "/ˈɑːbdʒɪkt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đối tượng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "offline",
+    "pronounce": "/ˌɔːfˈlaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "ngoại tuyến",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "online",
+    "pronounce": "/ˌɑːnˈlaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "trực tuyến",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "open source",
+    "pronounce": "/ˌəʊpən ˈsɔːrs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mã nguồn mở",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "optimize",
+    "pronounce": "/ˈɑːptɪmaɪz/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tối ưu hóa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "output",
+    "pronounce": "/ˈaʊtpʊt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đầu ra",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "outsource",
+    "pronounce": "/ˈaʊtsɔːrs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "gia công sản phẩm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "parameter",
+    "pronounce": "/pəˈræmɪtər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tham số",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "password",
+    "pronounce": "/password/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mật khẩu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "performance",
+    "pronounce": "/pərˈfɔːrməns/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hiệu năng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "pixel",
+    "pronounce": "/ˈpɪksl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "điểm ảnh",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "polymorphism",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tính đa hình",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "port",
+    "pronounce": "/pɔːrt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cổng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "principle",
+    "pronounce": "/ˈprɪnsəpl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nguyên lý",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "priority",
+    "pronounce": "/praɪˈɔːrəti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "độ ưu tiên",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "process",
+    "pronounce": "/ˈprɑːses/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "xử lý",
+        "definition": "",
+        "images": []
+      },
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tiến trình",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "product",
+    "pronounce": "/ˈprɑːdʌkt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sản phẩm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "project",
+    "pronounce": "/ˈprɑːdʒekt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "dự án",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "protocol",
+    "pronounce": "/ˈprəʊtəkɒl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao thức",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "prototype",
+    "pronounce": "/ˈprəʊtətaɪp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nguyên mẫu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "queue",
+    "pronounce": "/kjuː/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hàng đợi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "register",
+    "pronounce": "/ˈredʒɪstər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "đăng ký",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "release",
+    "pronounce": "/rɪˈliːs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "phát hành",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "resolution",
+    "pronounce": "/ˌrezəˈluːʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "độ phân giải",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "router",
+    "pronounce": "/ˈruːtər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ định tuyến",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "router1.jpg"
+          },
+          {
+            "imageName": "router2.jpg"
+          },
+          {
+            "imageName": "router3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "safety",
+    "pronounce": "/ˈseɪfti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "an toàn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "security",
+    "pronounce": "/sɪˈkjʊərəti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bảo mật",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "signal",
+    "pronounce": "/ˈsɪɡnəl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tín hiệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "skill",
+    "pronounce": "/skɪl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kỹ năng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "software",
+    "pronounce": "/ftwer/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "phần mềm",
+        "definition": "the programs used by a computer for doing particular jobs",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "software architect",
+    "pronounce": "/ˈsɒftweə(r) ˈɑːkɪtekt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kiến trúc sư phần mềm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "software engineer",
+    "pronounce": "/ˈsɔːftwer endʒɪnɪr/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kỹ sư phần mềm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "software engineering",
+    "pronounce": "/ˈsɔːftwer ˌendʒɪˈnɪrɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kỹ nghệ phần mềm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "solve",
+    "pronounce": "/sɑːlv/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "giải quyết",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "source code",
+    "pronounce": "/ˈsɔːrs kəʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mã nguồn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "stack",
+    "pronounce": "/stæk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngăn xếp",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "stack1.jpg"
+          },
+          {
+            "imageName": "stack2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "string",
+    "pronounce": "/strɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chuỗi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "syntax",
+    "pronounce": "/ˈsɪntæks/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cú pháp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "system",
+    "pronounce": "/ˈsɪstəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ thống",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "table",
+    "pronounce": "/ˈteɪbl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bảng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "technical",
+    "pronounce": "/ˈteknɪkl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "thuộc về kỹ thuật",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "technique",
+    "pronounce": "/tekˈniːk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kỹ thuật",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "technological",
+    "pronounce": "/ˌteknəˈlɑːdʒɪkl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "thuộc về công nghệ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "technology",
+    "pronounce": "/tekˈnɑːlədʒi/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "công nghệ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "test",
+    "pronounce": "/test/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "kiểm tra, kiểm thử",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "thread",
+    "pronounce": "/θred/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "luồng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "tool",
+    "pronounce": "/tuːl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "công cụ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "tree",
+    "pronounce": "/triː/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cây",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "update",
+    "pronounce": "/ˌʌpˈdeɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "cập nhật",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "upgrade",
+    "pronounce": "/ˌʌpˈɡreɪd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "nâng cấp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "use",
+    "pronounce": "/juːz/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "sử dụng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "user",
+    "pronounce": "/ˈjuːzər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "người dùng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "variable",
+    "pronounce": "/ˈveriəbl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "biến",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "virtual memory",
+    "pronounce": "/ˌvɜːrtʃuəl ˈmeməri/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ nhớ ảo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "website",
+    "pronounce": "/ˈwebsaɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trang web",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "recursion",
+    "pronounce": "/rɪˈkɜːrʒn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đệ quy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "recursive",
+    "pronounce": "/rɪˈkɜːrsɪv/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "đệ quy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "microprocessor",
+    "pronounce": "/ˌmaɪkrəʊˈprɑːsesər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ vi xử lý",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "server",
+    "pronounce": "/ˈsɜːrvər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "máy chủ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "data package",
+    "pronounce": "/ˈdeɪtə ˈpækɪdʒ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "gói dữ liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "load",
+    "pronounce": "/ləʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tải",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "reload",
+    "pronounce": "/ˌriːˈləʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tải lại",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "synchronous",
+    "pronounce": "/ˈsɪŋkrənəs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "đồng bộ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "asynchronous",
+    "pronounce": "/eɪˈsɪŋkrənəs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "bất đồng bộ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "control",
+    "pronounce": "/kənˈtrəʊl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "điều khiển",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Hypertext Transfer Protocol",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "HTTP",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao thức truyền tải siêu văn bản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "HTTP",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Hypertext Transfer Protocol",
+        "type": "n.",
+        "meaning": "giao thức truyền tải siêu văn bản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "wireless",
+    "pronounce": "/ˈwaɪərləs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "không dây",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "wave",
+    "pronounce": "/weɪv/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sóng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "tablet",
+    "pronounce": "/ˈtæblət/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "máy tính bảng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "compatible",
+    "pronounce": "/kəmˈpætəbl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "tương thích",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "analog",
+    "pronounce": "/ˈænəlɔːɡ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "tương tự",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "digital",
+    "pronounce": "/ˈdɪdʒɪtl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "thuộc về số",
+        "definition": "",
+        "images": []
+      }
+  ]
+  },
+  {
+    "name": "layer",
+    "pronounce": "/ˈleɪər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tầng, lớp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "network",
+    "pronounce": "/ˈnetwɜːrk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mạng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "virtual",
+    "pronounce": "/ˈvɜːrtʃuəl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "ảo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "laptop",
+    "pronounce": "/ˈlæptɑːp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "máy tính sách tay",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "laptop1.jpg"
+          },
+          {
+            "imageName": "laptop2.jpg"
+          },
+          {
+            "imageName": "laptop3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "disk",
+    "pronounce": "/dɪsk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đĩa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "integer",
+    "pronounce": "/ˈɪntɪdʒər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "số nguyên",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "character",
+    "pronounce": "/ˈkærəktər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ký tự",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "print",
+    "pronounce": "/prɪnt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "in",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "printer",
+    "pronounce": "/ˈprɪntər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "máy in",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "multi-user",
+    "pronounce": "/ˌmʌlti ˈjuːzər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "đa người dùng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "set",
+    "pronounce": "/set/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tập hợp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "HyperText Markup Language",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "HTML",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngôn ngữ đánh dấu siêu văn bản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "HTML",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "HyperText Markup Language",
+        "type": "n.",
+        "meaning": "ngôn ngữ đánh dấu siêu văn bản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "eXtensible Markup Language",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "XML",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngôn ngữ đánh dấu mở rộng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "XML",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "eXtensible Markup Language",
+        "type": "n.",
+        "meaning": "ngôn ngữ đánh dấu mở rộng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "task",
+    "pronounce": "/tæsk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhiệm vụ, công việc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "speed",
+    "pronounce": "/spiːd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tốc độ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "administrator",
+    "pronounce": "/ədˈmɪnɪstreɪtər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "quản trị viên",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "sensor",
+    "pronounce": "/ˈsensər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cảm biến",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "complex",
+    "pronounce": "/kəmˈpleks/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "phức tạp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "store",
+    "pronounce": "/stɔːr/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "lưu trữ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "copy",
+    "pronounce": "/ˈkɑːpi/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "sao chép",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "paste",
+    "pronounce": "/peɪst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "dán",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "cut",
+    "pronounce": "/kʌt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "cắt",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "image",
+    "pronounce": "/ˈɪmɪdʒ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ảnh",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "layout",
+    "pronounce": "/ˈleɪaʊt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bố cục, sơ đồ bố trí",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "color",
+    "pronounce": "/ˈkʌlər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "màu sắc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "edit",
+    "pronounce": "/ˈedɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "biên tập",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "function",
+    "pronounce": "/ˈfʌŋkʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hàm",
+        "definition": "",
+        "images": []
+      },
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chức năng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "wireframe",
+    "pronounce": "/ˈwaɪərfreɪm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khung dây",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "link",
+    "pronounce": "/lɪŋk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đường dẫn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "method",
+    "pronounce": "/ˈmeθəd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "phương thức",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "analyse",
+    "pronounce": "/ˈænəlaɪz/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "phân tích",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "analyst",
+    "pronounce": "/ˈænəlɪst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhà phân tích",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "analysis",
+    "pronounce": "/əˈnæləsɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự phân tích",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "remote",
+    "pronounce": "/əˈnæləsɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "từ xa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "automate",
+    "pronounce": "/ˈɔːtəmeɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tự động hóa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "automation",
+    "pronounce": "/ˌɔːtəˈmeɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự tự động",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "hash function",
+    "pronounce": "/hæʃ ˈfʌŋkʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hàm băm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "core",
+    "pronounce": "/kɔːr/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "lõi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "kernel",
+    "pronounce": "/ˈkɜːrnl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nhân",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "virus",
+    "pronounce": "/ˈvaɪrəs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "vi rút máy tính",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "malware",
+    "pronounce": "/ˈmælwer/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mã độc",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "malware1.jpg"
+          },
+          {
+            "imageName": "malware2.jpg"
+          },
+          {
+            "imageName": "malware3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "training",
+    "pronounce": "/ˈtreɪnɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đào tạo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Internet of Things",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "IOT",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "Internet vạn vật",
+        "definition": "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "IoT",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Internet of Things",
+        "type": "n.",
+        "meaning": "Internet vạn vật",
+        "definition": "The Internet of Things (IoT) describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "private",
+    "pronounce": "/ˈpraɪvət/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "riêng tư, cá nhân",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Portable Document Format",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "định dạng tài liệu di động",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "PDF",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Portable Document Format",
+        "type": "n.",
+        "meaning": "định dạng tài liệu di động",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "operating system",
+    "pronounce": "/ˈɑːpəreɪtɪŋ sɪstəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ điều hành",
+        "definition": "a set of programs that controls the way a computer works and runs other programs",
+        "images": [
+          {
+            "imageName": "operating system 1.jpg"
+          },
+          {
+            "imageName": "operating system 2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "OS",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "operating system",
+        "type": "n.",
+        "meaning": "hệ điều hành",
+        "definition": "a set of programs that controls the way a computer works and runs other programs",
+        "images": [
+          {
+            "imageName": "operating system 1.jpg"
+          },
+          {
+            "imageName": "operating system 2.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "JavaScript Object Notation",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "json1.jpg"
+          },
+          {
+            "imageName": "json2.jpg"
+          },
+          {
+            "imageName": "json3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "JSON",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "JavaScript Object Notation",
+        "type": "n.",
+        "meaning": "",
+        "definition": "",
+        "images": [
+          {
+            "imageName": "json1.jpg"
+          },
+          {
+            "imageName": "json2.jpg"
+          },
+          {
+            "imageName": "json3.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "border",
+    "pronounce": "/ˈbɔːrdər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đường viền",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "corner",
+    "pronounce": "/ˈkɔːrnər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "góc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "contact",
+    "pronounce": "/ˈkɑːntækt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "liên hệ, liên lạc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "access",
+    "pronounce": "/ˈækses/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "truy cập",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "column",
+    "pronounce": "/ˈkɑːləm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cột",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "row",
+    "pronounce": "/rəʊ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hàng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "field",
+    "pronounce": "/fiːld/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trường",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "contain",
+    "pronounce": "/kənˈteɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "chứa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "protect",
+    "pronounce": "/prəˈtekt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bảo vệ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "context",
+    "pronounce": "/ˈkɑːntekst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bối cảnh",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "icon",
+    "pronounce": "/ˈaɪkɑːn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "biểu tượng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Structured Query Language",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "SQL",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngôn ngữ truy vấn mang tính cấu trúc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "SQL",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Structured Query Language",
+        "type": "n.",
+        "meaning": "ngôn ngữ truy vấn mang tính cấu trúc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "record",
+    "pronounce": "/ˈrekərd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "ghi lại",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "create",
+    "pronounce": "/kriˈeɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "chứa",
+        "definition": "",
+        "images": []
+      },
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bản ghi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "create",
+    "pronounce": "/kriˈeɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "tạo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "read",
+    "pronounce": "/riːd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "đọc",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "delete",
+    "pronounce": "/dɪˈliːt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "xóa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "constant",
+    "pronounce": "/ˈkɑːnstənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "hằng, không đổi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "insert",
+    "pronounce": "/ɪnˈsɜːrt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "chèn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "regular expression",
+    "pronounce": "/ˈreɡjələr ɪkˈspreʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "biểu thức chính quy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "override",
+    "pronounce": "/ˌəʊvərˈraɪd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "ghi đè",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "overload",
+    "pronounce": "/ˌəʊvərˈləʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "nạp chồng, tải bội",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "tutorial",
+    "pronounce": "/tuːˈtɔːriəl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hướng dẫn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "keyword",
+    "pronounce": "/ˈkiːwɜːrd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "từ khóa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "loop",
+    "pronounce": "/luːp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "vòng lặp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "constructor",
+    "pronounce": "/kənˈstrʌktər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hàm tạo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "event",
+    "pronounce": "/ɪˈvent/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự kiện",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "code",
+    "pronounce": "/kəʊd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mã",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "case",
+    "pronounce": "/keɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trường hợp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "tag",
+    "pronounce": "/tæɡ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thẻ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Application Programming Interface",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "API",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "giao diện lập trình ứng dụng",
+        "definition": "An application programming interface (API) is a computing interface which defines interactions between multiple software intermediaries",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "API",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Application Programming Interface",
+        "type": "n.",
+        "meaning": "giao diện lập trình ứng dụng",
+        "definition": "An application programming interface (API) is a computing interface which defines interactions between multiple software intermediaries",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "define",
+    "pronounce": "/dɪˈfaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "định nghĩa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "definition",
+    "pronounce": "/ˌdefɪˈnɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự định nghĩa",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "guide",
+    "pronounce": "/ɡaɪd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hướng dẫn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "design pattern",
+    "pronounce": "/dɪˈzaɪn ˈpætərn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mẫu thiết kế",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Asynchronous JavaScript and XML",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "AJAX",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "",
+        "definition": "AJAX is a set of web development techniques using many web technologies on the client side to create asynchronous web applications",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "AJAX",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Asynchronous JavaScript and XML",
+        "type": "n.",
+        "meaning": "",
+        "definition": "AJAX is a set of web development techniques using many web technologies on the client side to create asynchronous web applications",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "platform",
+    "pronounce": "/ˈplætfɔːrm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nền tảng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "programming language",
+    "pronounce": "/ˈprəʊɡræmɪŋ ˈlæŋɡwɪdʒ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ngôn ngữ lập trình",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "procedure",
+    "pronounce": "/prəˈsiːdʒər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thủ tục",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "type casting",
+    "pronounce": "/taɪp ˈkæstɪŋ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ép kiểu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "title",
+    "pronounce": "/ˈtaɪtl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tiêu đề",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "data type",
+    "pronounce": "/ˈdeɪtə taɪp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kiểu dữ liệu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "sort",
+    "pronounce": "/sɔːrt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "sắp xếp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "basic",
+    "pronounce": "/ˈbeɪsɪk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "cơ bản",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "advanced",
+    "pronounce": "/ədˈvænst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "nâng cao",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "mistake",
+    "pronounce": "/mɪˈsteɪk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "sai lầm, lỗi sai",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "assign",
+    "pronounce": "/əˈsaɪn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "gán",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "notification",
+    "pronounce": "/ˌnəʊtɪfɪˈkeɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "thông báo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "program",
+    "pronounce": "/ˈprəʊɡræm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "name": "program",
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "lập trình",
+        "definition": "",
+        "images": []
+      },
+      {
+        "name": "program",
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chương trình",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "implement",
+    "pronounce": "/ˈɪmplɪment/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "thi hành, thực thi",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "concept",
+    "pronounce": "/ˈkɑːnsept/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khái niệm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "provide",
+    "pronounce": "/prəˈvaɪd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "cung cấp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "research",
+    "pronounce": "/ˈriːsɜːrtʃ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nghiên cứu",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "inspect",
+    "pronounce": "/ɪnˈspekt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "kiểm tra",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "toolkit",
+    "pronounce": "/ˈtuːlkɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ công cụ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "query",
+    "pronounce": "/ˈkwɪri/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "truy vấn",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "click",
+    "pronounce": "/klɪk/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "nhấp chuột",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "keyboard",
+    "pronounce": "/ˈkiːbɔːrd/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bàn phím",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "mouse",
+    "pronounce": "/maʊs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chuột máy tính",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "display",
+    "pronounce": "/dɪˈspleɪ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "name": "display",
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "hiển thị",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "size",
+    "pronounce": "/saɪz/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "kích thước",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "resource",
+    "pronounce": "/ˈriːsɔːrs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "nguồn tài nguyên",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "usage",
+    "pronounce": "/ˈjuːsɪdʒ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cách dùng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "reusability",
+    "pronounce": "/reɪˌjuːzəˈbɪləti/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tính tái sử dụng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "width",
+    "pronounce": "/wɪdθ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chiều rộng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "height",
+    "pronounce": "/haɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "chiều cao",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "top",
+    "pronounce": "/tɑːp/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đỉnh",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "bottom",
+    "pronounce": "/ˈbɑːtəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đáy",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "left",
+    "pronounce": "/left/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "trái",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "right",
+    "pronounce": "/raɪt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "phải",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "course",
+    "pronounce": "/kɔːrs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "khóa học",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "search",
+    "pronounce": "/sɜːrtʃ/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "tìm kiếm",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "service",
+    "pronounce": "/ˈsɜːrvɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "dịch vụ",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "parse",
+    "pronounce": "/pɑːrs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "phân tích",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "binary tree",
+    "pronounce": "/ˈbaɪnəri triː/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cây nhị phân",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "declare",
+    "pronounce": "/dɪˈkler/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "khai báo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "declaration",
+    "pronounce": "/ˌdekləˈreɪʃn/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "sự khai báo",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "free",
+    "pronounce": "/friː/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "miễn phí",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "embed",
+    "pronounce": "/ɪmˈbed/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "nhúng",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Domain Name System",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "DNS",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "hệ thống phân giải tên miền",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "DNS",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Domain Name System",
+        "type": "n.",
+        "meaning": "hệ thống phân giải tên miền",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "matrix",
+    "pronounce": "/ˈmeɪtrɪks/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "ma trận",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "list",
+    "pronounce": "/lɪst/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "danh sách",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "retrieve",
+    "pronounce": "/rɪˈtriːv/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "v.",
+        "meaning": "truy xuất",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "multiple",
+    "pronounce": "/ˈmʌltɪpl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "đa, nhiều",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "pointer",
+    "pronounce": "/ˈpɔɪntər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "con trỏ (trong ngôn ngữ lập trình)",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "sensor",
+    "pronounce": "/ˈsensər/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "con trỏ (trong ngôn ngữ truy vẫn SQL)",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "concurrent",
+    "pronounce": "/kənˈkɜːrənt/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "đồng thời",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "concurrency",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "đồng thời",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "parallel",
+    "pronounce": "/ˈpærəlel/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "song song",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "parallelism",
+    "pronounce": "/ˈpærəlelɪzəm/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "song song",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "codebase",
+    "pronounce": "/kəʊd beɪs/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "cơ sở mã",
+        "definition": "a codebase (or code base) is a collection of source code used to build a particular software system, application, or software component.",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "flexible",
+    "pronounce": "/ˈfleksəbl/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "linh hoạt",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "complex",
+    "pronounce": "/kəmˈpleks/",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "",
+        "type": "adj.",
+        "meaning": "phức tạp",
+        "definition": "",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "Software Development Kit",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "SDK",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "bộ công cụ phát triển phần mềm",
+        "definition": "A software development kit (SDK) is a collection of software development tools in one installable package",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "SDK",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "abbreviation": "",
+        "standFor": "Software Development Kit",
+        "type": "n.",
+        "meaning": "bộ công cụ phát triển phần mềm",
+        "definition": "A software development kit (SDK) is a collection of software development tools in one installable package",
+        "images": []
+      }
+    ]
+  },
+  {
+    "name": "legacy code",
+    "pronounce": "",
+    "isSearched": "0",
+    "isFavorite": "0",
+    "note": "",
+    "contents": [
+      {
+        "name": "legacy code",
+        "abbreviation": "",
+        "standFor": "",
+        "type": "n.",
+        "meaning": "mã kế thừa",
+        "definition": "Legacy code is source code that relates to a no-longer supported[citation needed] or manufactured operating system or other computer technology",
+        "images": []
+      }
+    ]
+  }
+]

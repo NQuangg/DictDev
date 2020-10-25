@@ -18,10 +18,8 @@ import android.widget.ListView;
 import android.widget.SearchView;
 
 import com.example.dictdev.R;
-import com.example.dictdev.db.model.entity.SearchedWord;
-import com.example.dictdev.db.model.entity.TitleWord;
-import com.example.dictdev.db.viewmodel.SearchedWordViewModel;
-import com.example.dictdev.db.viewmodel.TitleWordViewModel;
+import com.example.dictdev.db.model.SearchedWord;
+import com.example.dictdev.db.viewmodel.WordViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,8 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnWordSearched;
     private Button btnWordFavorite;
 
-    private TitleWordViewModel mTitleWordViewModel;
-    private SearchedWordViewModel mSearchedWordViewModel;
+    WordViewModel mWordViewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,15 +42,18 @@ public class MainActivity extends AppCompatActivity {
         btnWordSearched = findViewById(R.id.btn_word_searched);
         btnWordFavorite = findViewById(R.id.btn_word_favorite);
 
-        mTitleWordViewModel = ViewModelProviders.of(this).get(TitleWordViewModel.class);
-        mSearchedWordViewModel = ViewModelProviders.of(this).get(SearchedWordViewModel.class);
+        mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
 
         final ArrayList<String> list = new ArrayList<>();
-        mTitleWordViewModel.getAllTitleWords().observe(this, new Observer<List<TitleWord>>() {
+        mWordViewModel.getAllWordNames().observe(this, new Observer<List<String>>() {
             @Override
-            public void onChanged(List<TitleWord> titleWords) {
-                for (TitleWord titleWord: titleWords) {
-                    list.add(titleWord.getName());
+            public void onChanged(List<String> wordNames) {
+                for (int i = 0; i < 10; i++) {
+                    list.add("");
+                }
+                
+                for (String wordname: wordNames) {
+                    list.add(wordname);
                 }
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         lvWord.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                mSearchedWordViewModel.insert(new SearchedWord(lvWord.getItemAtPosition(position).toString()));
+                mWordViewModel.updateSearchedWord(new SearchedWord(lvWord.getItemAtPosition(position).toString(), "1"));
                 Intent intent = new Intent(getApplicationContext(), WordActivity.class);
                 intent.putExtra("inputText", lvWord.getItemAtPosition(position).toString());
                 startActivity(intent);
@@ -78,9 +78,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String s) {
                 boolean check = false;
+                if (s.equals("")) {
+                    lvWord.setVisibility(View.GONE);
+                }
                 for (String item : list) {
                     if (s.toLowerCase().equals(item.toLowerCase())) {
-                        mSearchedWordViewModel.insert(new SearchedWord(item));
+                        mWordViewModel.updateSearchedWord(new SearchedWord(item, "1"));
                         Intent intent = new Intent(getApplicationContext(), WordActivity.class);
                         intent.putExtra("inputText", item);
                         startActivity(intent);
@@ -91,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
 
                 if (!check) {
                     lvWord.setVisibility(View.GONE);
-                    svWord.setQuery("", false);
                     Intent intent = new Intent(getApplicationContext(), WebActivity.class);
                     intent.putExtra("unknownWord", s);
                     startActivity(intent);

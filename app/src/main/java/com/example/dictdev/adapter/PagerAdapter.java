@@ -4,6 +4,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
+import com.example.dictdev.fragment.ImageFragment;
 import com.example.dictdev.fragment.NoteFragment;
 import com.example.dictdev.fragment.WordFragment;
 
@@ -19,7 +20,8 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return new WordFragment();
-            case 1: return new NoteFragment();
+            case 1: return new ImageFragment();
+            case 2: return new NoteFragment();
             default: return null;
         }
     }

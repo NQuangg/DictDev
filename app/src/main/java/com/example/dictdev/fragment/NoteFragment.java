@@ -13,13 +13,14 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 
 import com.example.dictdev.R;
-import com.example.dictdev.db.model.entity.WordNote;
-import com.example.dictdev.db.viewmodel.WordNoteViewModel;
+import com.example.dictdev.db.model.WordNote;
+import com.example.dictdev.db.viewmodel.WordViewModel;
 
 public class NoteFragment extends Fragment {
+    private EditText etNote;
+
     String inputText = "";
 
-    private EditText etNote;
     public NoteFragment() {
     }
 
@@ -29,30 +30,26 @@ public class NoteFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_note, container, false);
         etNote = rootView.findViewById(R.id.et_note);
 
-
         Intent intent = getActivity().getIntent();
         if (intent != null) {
             inputText = intent.getStringExtra("inputText");
         }
 
-        WordNoteViewModel mWordNoteViewModel = ViewModelProviders.of(this).get(WordNoteViewModel.class);
-        mWordNoteViewModel.getNote(inputText).observe(getActivity(), new Observer<WordNote>() {
-                @Override
-                public void onChanged(WordNote wordNote) {
-                    if (wordNote != null) {
-                        etNote.setText(wordNote.getNote());
-                    } else {
-                        etNote.setText("");
-                    }
-                }
+        WordViewModel mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
+        mWordViewModel.getNote(inputText).observe(getActivity(), new Observer<String>() {
+            @Override
+            public void onChanged(String wordNote) {
+                etNote.setText(wordNote);
+            }
         });
+
         return rootView;
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        WordNoteViewModel mWordNoteViewModel = ViewModelProviders.of(this).get(WordNoteViewModel.class);
-        mWordNoteViewModel.insert(new WordNote(inputText, etNote.getText().toString()));
+        WordViewModel mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
+        mWordViewModel.setNote(new WordNote(inputText, etNote.getText().toString()));
     }
 }

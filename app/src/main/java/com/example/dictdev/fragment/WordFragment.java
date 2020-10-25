@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -17,13 +18,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.dictdev.R;
-import com.example.dictdev.adapter.ContentWordAdapter;
-import com.example.dictdev.db.model.entity.ContentWord;
-import com.example.dictdev.db.model.entity.TitleWord;
-import com.example.dictdev.db.viewmodel.ContentWordViewModel;
-import com.example.dictdev.db.viewmodel.TitleWordViewModel;
+import com.example.dictdev.adapter.WordContentAdapter;
+import com.example.dictdev.db.model.entity.Word;
+import com.example.dictdev.db.viewmodel.WordViewModel;
 
-import java.util.List;
 import java.util.Locale;
 
 public class WordFragment extends Fragment {
@@ -32,7 +30,7 @@ public class WordFragment extends Fragment {
     private Button btnVolume;
     private RecyclerView rvWordContent;
 
-    private TextToSpeech textToSpeech;
+    TextToSpeech textToSpeech;
 
     public WordFragment() {
     }
@@ -53,29 +51,24 @@ public class WordFragment extends Fragment {
             inputText = intent.getStringExtra("inputText");
         }
 
-        rvWordContent.setLayoutManager(new LinearLayoutManager(getContext()));
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
+        rvWordContent.setLayoutManager(linearLayoutManager);
 
-        // Data is displayed
-        TitleWordViewModel mTitleWordViewModel = ViewModelProviders.of(this).get(TitleWordViewModel.class);
-        mTitleWordViewModel.getTitleWord(inputText).observe(getActivity(), new Observer<TitleWord>() {
+        final WordContentAdapter mAdapter = new WordContentAdapter(getContext());
+        WordViewModel mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
+        mWordViewModel.getWord(inputText).observe(getActivity(), new Observer<Word>() {
             @Override
-            public void onChanged(TitleWord titleWord) {
-                tvWordName.setText(titleWord.getName());
-                tvWordPronounce.setText(titleWord.getPronounce());
+            public void onChanged(Word word) {
+                tvWordName.setText(word.getName());
+                tvWordPronounce.setText(word.getPronounce());
                 if (tvWordPronounce.getText().toString().isEmpty()) tvWordPronounce.setVisibility(View.GONE);
-            }
-        });
 
-        final ContentWordAdapter mAdapter = new ContentWordAdapter(getContext());
-        ContentWordViewModel mContentWordViewModel = ViewModelProviders.of(this).get(ContentWordViewModel.class);
-        mContentWordViewModel.getContentWords(inputText).observe(getActivity(), new Observer<List<ContentWord>>() {
-            @Override
-            public void onChanged(List<ContentWord> contentWords) {
-                mAdapter.setContentWords(contentWords);
+                mAdapter.setContentWords(word.getContents());
                 rvWordContent.setAdapter(mAdapter);
                 mAdapter.notifyDataSetChanged();
             }
         });
+
 
         // Volume
         textToSpeech = new TextToSpeech(getContext(), new TextToSpeech.OnInitListener() {
@@ -93,6 +86,7 @@ public class WordFragment extends Fragment {
                 textToSpeech.speak(tvWordName.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
             }
         });
+
         return rootView;
     }
 }

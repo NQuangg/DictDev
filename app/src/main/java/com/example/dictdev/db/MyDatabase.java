@@ -10,17 +10,10 @@ import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
-import com.example.dictdev.db.dao.ContentWordDao;
-import com.example.dictdev.db.dao.FavoriteWordDao;
-import com.example.dictdev.db.dao.SearchedWordDao;
-import com.example.dictdev.db.dao.TitleWordDao;
-import com.example.dictdev.db.dao.WordNoteDao;
-import com.example.dictdev.db.model.Converters;
-import com.example.dictdev.db.model.entity.ContentWord;
-import com.example.dictdev.db.model.entity.FavoriteWord;
-import com.example.dictdev.db.model.entity.SearchedWord;
-import com.example.dictdev.db.model.entity.TitleWord;
-import com.example.dictdev.db.model.entity.WordNote;
+import com.example.dictdev.db.dao.WordDao;
+import com.example.dictdev.db.model.converter.WordContentConverter;
+import com.example.dictdev.db.model.converter.WordImageConverter;
+import com.example.dictdev.db.model.entity.Word;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -29,14 +22,10 @@ import java.io.InputStream;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
-@Database(entities = {TitleWord.class, ContentWord.class, SearchedWord.class, FavoriteWord.class, WordNote.class}, version = 1, exportSchema = false)
-@TypeConverters(Converters.class)
+@Database(entities = {Word.class}, version = 1, exportSchema = false)
+@TypeConverters({WordContentConverter.class, WordImageConverter.class})
 public abstract class MyDatabase extends RoomDatabase {
-    public abstract TitleWordDao titleWordDao();
-    public abstract ContentWordDao contentWordDao();
-    public abstract SearchedWordDao searchedWordDao();
-    public abstract FavoriteWordDao favoriteWordDao();
-    public abstract WordNoteDao wordNoteDao();
+    public abstract WordDao wordDao();
 
     private static MyDatabase INSTANCE;
 
@@ -62,36 +51,25 @@ public abstract class MyDatabase extends RoomDatabase {
     }
 
 
-
     /**
      * Populate the database in the background.
      **/
     private static class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
-
-        private final TitleWordDao mTitleWordDao;
-        private final ContentWordDao mContentWordDao;
+        private final WordDao mWordDao;
         private final WeakReference<Context> weakContext;
 
         PopulateDbAsync(MyDatabase db, Context context) {
-            mTitleWordDao = db.titleWordDao();
-            mContentWordDao = db.contentWordDao();
+            mWordDao = db.wordDao();
             weakContext = new WeakReference<>(context);
         }
 
         @Override
         protected Void doInBackground(final Void... params) {
-            // Start the app with a clean database every time.
-            // Not needed if you only populate the database
-            // when it is first created
-            mTitleWordDao.deleteAll();
-            mContentWordDao.deleteAll();
+            mWordDao.deleteAll();
 
             Gson gson = new Gson();
-            ArrayList<TitleWord> titleWords = gson.fromJson(loadJSONFromAsset("TitleWord.json"), new TypeToken<ArrayList<TitleWord>>() {}.getType());
-            ArrayList<ContentWord> contentWords = gson.fromJson(loadJSONFromAsset("ContentWord.json"), new TypeToken<ArrayList<ContentWord>>() {}.getType());
-
-            mTitleWordDao.insertAll(titleWords);
-            mContentWordDao.insertAll(contentWords);
+            ArrayList<Word> words = gson.fromJson(loadJSONFromAsset("Word.json"), new TypeToken<ArrayList<Word>>() {}.getType());
+            mWordDao.insertAll(words);
 
             return null;
         }

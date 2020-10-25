@@ -11,24 +11,22 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import com.example.dictdev.R;
-import com.example.dictdev.adapter.WordListAdapter;
-import com.example.dictdev.db.model.entity.FavoriteWord;
-import com.example.dictdev.db.model.entity.SearchedWord;
-import com.example.dictdev.db.viewmodel.FavoriteWordViewModel;
-import com.example.dictdev.db.viewmodel.SearchedWordViewModel;
+import com.example.dictdev.adapter.WordAdapter;
+import com.example.dictdev.db.model.FavoriteWord;
+import com.example.dictdev.db.model.SearchedWord;
+import com.example.dictdev.db.viewmodel.WordViewModel;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListActivity extends AppCompatActivity {
-
     private RecyclerView mRecyclerView;
     private ConstraintLayout listLayout;
-    private boolean isUndo = false;
+
+    boolean isUndo = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,133 +35,95 @@ public class ListActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        listLayout = findViewById(R.id.list_layout);
         mRecyclerView = findViewById(R.id.list_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        final WordAdapter adapter = new WordAdapter(this);
+        mRecyclerView.setAdapter(adapter);
 
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
 
-        if (name.equals("searchedList")) {
-            final WordListAdapter<SearchedWord> adapter = new WordListAdapter<>(this);
-            mRecyclerView.setAdapter(adapter);
-            final ArrayList<SearchedWord> searchedWords = new ArrayList<>();
+        final WordViewModel mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
+        final ArrayList<String> searchedWords = new ArrayList<>();
+        final ArrayList<String> favoriteWords = new ArrayList<>();
 
-            final SearchedWordViewModel mSearchedWordViewModel = ViewModelProviders.of(this).get(SearchedWordViewModel.class);
-            mSearchedWordViewModel.getAllSearchedWords().observe(this, new Observer<List<SearchedWord>>() {
+        final boolean isSearchedList = name.equals("searchedList");
+
+        if (isSearchedList) {
+            mWordViewModel.getAllSearchedWordNames().observe(this, new Observer<List<String>>() {
                 @Override
-                public void onChanged(List<SearchedWord> searchedWordArrayList) {
-                    adapter.setWords(searchedWordArrayList);
+                public void onChanged(List<String> searchedWordArrayList) {
                     searchedWords.addAll(searchedWordArrayList);
+                    adapter.setWords(searchedWords);
                 }
             });
+        } else {
+            mWordViewModel.getAllFavoriteWordNames().observe(this, new Observer<List<String>>() {
+                @Override
+                public void onChanged(List<String> favoriteWordArrayList) {
+                    favoriteWords.addAll(favoriteWordArrayList);
+                    adapter.setWords(favoriteWords);
+                }
+            });
+        }
 
-            ItemTouchHelper helper = new ItemTouchHelper(
-                    new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
-                        @Override
-                        public boolean onMove(RecyclerView recyclerView,
-                                              RecyclerView.ViewHolder viewHolder,
-                                              RecyclerView.ViewHolder target) {
-                            return false;
-                        }
 
-                        @Override
-                        public void onSwiped(RecyclerView.ViewHolder viewHolder,
-                                             int direction) {
-                            final int position = viewHolder.getAdapterPosition();
-                            final SearchedWord myWord = adapter.getWordAtPosition(position);
+        ItemTouchHelper helper = new ItemTouchHelper(
+                new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
+                    @Override
+                    public boolean onMove(RecyclerView recyclerView,
+                                          RecyclerView.ViewHolder viewHolder,
+                                          RecyclerView.ViewHolder target) {
+                        return false;
+                    }
 
+                    @Override
+                    public void onSwiped(RecyclerView.ViewHolder viewHolder,
+                                         int direction) {
+                        final int position = viewHolder.getAdapterPosition();
+                        final String myWord = adapter.getWordAtPosition(position);
+
+                        if (isSearchedList) {
                             searchedWords.remove(position);
-                            adapter.setWords(searchedWords);
+                        } else {
+                            favoriteWords.remove(position);
+                        }
+                        adapter.notifyItemRemoved(position);
 
-                            Snackbar snackbar = Snackbar.make(listLayout, "", 4000)
+                        Snackbar snackbar = Snackbar.make(listLayout, "", 4000)
                                 .setAction("UNDO", new View.OnClickListener() {
                                     @Override
                                     public void onClick(View view) {
-                                        searchedWords.add(position, myWord);
-                                        adapter.setWords(searchedWords);
+                                        if (isSearchedList) {
+                                            searchedWords.add(position, myWord);
+                                        } else {
+                                            favoriteWords.add(position, myWord);
+                                        }
+                                        adapter.notifyDataSetChanged();
                                         isUndo = true;
                                     }
                                 })
                                 .setActionTextColor(getResources().getColor(R.color.colorSnackbarText));
 
-                            snackbar.show();
-                            snackbar.addCallback(new Snackbar.Callback(){
-                                @Override
-                                public void onDismissed(Snackbar transientBottomBar, int event) {                                    super.onDismissed(transientBottomBar, event);
-                                    super.onDismissed(transientBottomBar, event);
-                                    if (!isUndo) {
-                                        mSearchedWordViewModel.delete(myWord);
+                        snackbar.show();
+                        snackbar.addCallback(new Snackbar.Callback(){
+                            @Override
+                            public void onDismissed(Snackbar transientBottomBar, int event) {                                    super.onDismissed(transientBottomBar, event);
+                                super.onDismissed(transientBottomBar, event);
+                                if (!isUndo) {
+                                    if (isSearchedList) {
+                                        mWordViewModel.updateSearchedWord(new SearchedWord(myWord, "0"));
+                                    } else {
+                                        mWordViewModel.updateFavoriteWord(new FavoriteWord(myWord, "0"));
                                     }
-                                    isUndo = false;
                                 }
-                            });
+                                isUndo = false;
+                            }
+                        });
+                    }
+                });
 
-                        }
-                    });
-
-            helper.attachToRecyclerView(mRecyclerView);
-
-        } else {
-            final WordListAdapter<FavoriteWord> adapter = new WordListAdapter(this);
-            mRecyclerView.setAdapter(adapter);
-            final ArrayList<FavoriteWord> favoriteWords = new ArrayList<>();
-
-            final FavoriteWordViewModel mFavoriteWordViewModel = ViewModelProviders.of(this).get(FavoriteWordViewModel.class);
-            mFavoriteWordViewModel.getAllFavoriteWords().observe(this, new Observer<List<FavoriteWord>>() {
-                @Override
-                public void onChanged(List<FavoriteWord> favoriteWordArrayList) {
-                    adapter.setWords(favoriteWordArrayList);
-                    favoriteWords.addAll(favoriteWordArrayList);
-                }
-            });
-
-            ItemTouchHelper helper = new ItemTouchHelper(
-                    new ItemTouchHelper.SimpleCallback(0, ItemTouchHelper.LEFT) {
-                        @Override
-                        public boolean onMove(RecyclerView recyclerView,
-                                              RecyclerView.ViewHolder viewHolder,
-                                              RecyclerView.ViewHolder target) {
-                            return false;
-                        }
-
-                        @Override
-                        public void onSwiped(RecyclerView.ViewHolder viewHolder,
-                                             int direction) {
-                            final int position = viewHolder.getAdapterPosition();
-                            final FavoriteWord myWord = adapter.getWordAtPosition(position);
-                            Toast.makeText(ListActivity.this, "Deleting successful", Toast.LENGTH_SHORT).show();
-
-                            favoriteWords.remove(position);
-                            adapter.setWords(favoriteWords);
-
-                            Snackbar snackbar = Snackbar.make(listLayout, "", 4000)
-                                    .setAction("UNDO", new View.OnClickListener() {
-                                        @Override
-                                        public void onClick(View view) {
-                                            favoriteWords.add(position, myWord);
-                                            adapter.setWords(favoriteWords);
-                                            isUndo = true;
-                                        }
-                                    })
-                                    .setActionTextColor(getResources().getColor(R.color.colorSnackbarText));
-
-                            snackbar.show();
-                            snackbar.addCallback(new Snackbar.Callback(){
-                                @Override
-                                public void onDismissed(Snackbar transientBottomBar, int event) {                                    super.onDismissed(transientBottomBar, event);
-                                    super.onDismissed(transientBottomBar, event);
-                                    if (!isUndo) {
-                                        mFavoriteWordViewModel.delete(myWord);
-                                    }
-                                    isUndo = false;
-                                }
-                            });
-                        }
-                    });
-
-            helper.attachToRecyclerView(mRecyclerView);
-        }
+        helper.attachToRecyclerView(mRecyclerView);
     }
 
 

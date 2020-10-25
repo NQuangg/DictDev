@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "836645115571",
+    "firebase_url": "https://dictdev-51f70.firebaseio.com",
+    "project_id": "dictdev-51f70",
+    "storage_bucket": "dictdev-51f70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836645115571:android:2bb1c0eb01e7df214442c6",
+        "android_client_info": {
+          "package_name": "com.example.dictdev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836645115571-jh0nrqb8eqs2ueglj8dkskjk1b85705c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD48nXwHm1yF_rTEPXCEMwr22S4XpLLhL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836645115571-jh0nrqb8eqs2ueglj8dkskjk1b85705c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
