@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.example.dictdev.fragment.WordFragment">
+    tools:context="com.quang.dictdev.fragment.WordFragment">
 
     <TextView
         android:id="@+id/tv_word_name"

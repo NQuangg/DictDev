@@ -8,12 +8,20 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:836645115571:android:2bb1c0eb01e7df214442c6",
+        "mobilesdk_app_id": "1:836645115571:android:3c3556119ba4893c4442c6",
         "android_client_info": {
-          "package_name": "com.example.dictdev"
+          "package_name": "com.quang.dictdev"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "836645115571-899nbhpip3djlk93ilbrm0ff9551hbg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.quang.dictdev",
+            "certificate_hash": "60b7c5dabc00106dc342ba78ed95f26cf3ec03b9"
+          }
+        },
         {
           "client_id": "836645115571-jh0nrqb8eqs2ueglj8dkskjk1b85705c.apps.googleusercontent.com",
           "client_type": 3
