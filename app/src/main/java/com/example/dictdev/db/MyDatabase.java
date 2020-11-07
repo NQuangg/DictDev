@@ -34,7 +34,7 @@ public abstract class MyDatabase extends RoomDatabase {
             synchronized (MyDatabase.class) {
                 if (INSTANCE == null) {
                     INSTANCE = Room.databaseBuilder(context.getApplicationContext(),
-                            MyDatabase.class, "word_database")
+                            MyDatabase.class, "my_database")
                             .fallbackToDestructiveMigration()
                             .addCallback(new RoomDatabase.Callback() {
                                 @Override

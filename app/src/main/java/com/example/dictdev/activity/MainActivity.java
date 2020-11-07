@@ -48,10 +48,6 @@ public class MainActivity extends AppCompatActivity {
         mWordViewModel.getAllWordNames().observe(this, new Observer<List<String>>() {
             @Override
             public void onChanged(List<String> wordNames) {
-                for (int i = 0; i < 10; i++) {
-                    list.add("");
-                }
-                
                 for (String wordname: wordNames) {
                     list.add(wordname);
                 }
