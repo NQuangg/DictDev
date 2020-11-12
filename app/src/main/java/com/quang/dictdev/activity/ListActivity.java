@@ -24,8 +24,6 @@ public class ListActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
     private ConstraintLayout listLayout;
 
-    boolean isUndo = false;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -89,37 +87,6 @@ public class ListActivity extends AppCompatActivity {
                             mWordViewModel.updateFavoriteWord(new FavoriteWord(myWord, "0"));
                         }
                         adapter.notifyItemRemoved(position);
-
-//                        Snackbar snackbar = Snackbar.make(listLayout, "", 4000)
-//                                .setAction("UNDO", new View.OnClickListener() {
-//                                    @Override
-//                                    public void onClick(View view) {
-//                                        if (isSearchedList) {
-//                                            searchedWords.add(position, myWord);
-//                                        } else {
-//                                            favoriteWords.add(position, myWord);
-//                                        }
-//                                        adapter.notifyDataSetChanged();
-//                                        isUndo = true;
-//                                    }
-//                                })
-//                                .setActionTextColor(getResources().getColor(R.color.colorSnackbarText));
-//
-//                        snackbar.show();
-//                        snackbar.addCallback(new Snackbar.Callback(){
-//                            @Override
-//                            public void onDismissed(Snackbar transientBottomBar, int event) {                                    super.onDismissed(transientBottomBar, event);
-//                                super.onDismissed(transientBottomBar, event);
-//                                if (!isUndo) {
-//                                    if (isSearchedList) {
-//                                        mWordViewModel.updateSearchedWord(new SearchedWord(myWord, "0"));
-//                                    } else {
-//                                        mWordViewModel.updateFavoriteWord(new FavoriteWord(myWord, "0"));
-//                                    }
-//                                }
-//                                isUndo = false;
-//                            }
-//                        });
                     }
                 });
 
