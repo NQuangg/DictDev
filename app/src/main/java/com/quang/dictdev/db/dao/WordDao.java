@@ -13,7 +13,7 @@ import java.util.List;
 
 @Dao
 public interface WordDao {
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Insert(onConflict = OnConflictStrategy.IGNORE)
     void insertAll(ArrayList<Word> words);
 
     @Query("DELETE FROM word_table")

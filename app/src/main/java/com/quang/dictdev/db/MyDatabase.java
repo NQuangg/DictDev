@@ -65,8 +65,6 @@ public abstract class MyDatabase extends RoomDatabase {
 
         @Override
         protected Void doInBackground(final Void... params) {
-            mWordDao.deleteAll();
-
             Gson gson = new Gson();
             ArrayList<Word> words = gson.fromJson(loadJSONFromAsset("Word.json"), new TypeToken<ArrayList<Word>>() {}.getType());
             mWordDao.insertAll(words);
