@@ -28,23 +28,23 @@ public interface WordDao {
     LiveData<Word> getWord(String wordName);
 
     // update searchedWord
-    @Query("UPDATE word_table SET is_searched =:isSearched WHERE name =:wordName")
+    @Query("UPDATE word_table SET isSearched =:isSearched WHERE name =:wordName")
     void updateSearchedWord(String wordName, String isSearched);
 
     // get all searchedWords
-    @Query("SELECT name FROM word_table WHERE is_searched = 1")
+    @Query("SELECT name FROM word_table WHERE isSearched = 1")
     LiveData<List<String>> getAllSearchedWordNames();
 
     // update favoriteWord
-    @Query("UPDATE word_table SET is_favorite =:isFavorite WHERE name =:wordName")
+    @Query("UPDATE word_table SET isFavorite =:isFavorite WHERE name =:wordName")
     void updateFavoriteWord(String wordName, String isFavorite);
 
     // get favorite
-    @Query("SELECT is_favorite FROM word_table WHERE name =:nameWord")
+    @Query("SELECT isFavorite FROM word_table WHERE name =:nameWord")
     LiveData<String> getFavorite(String nameWord);
 
     // get all favoriteWords
-    @Query("SELECT name FROM word_table WHERE is_favorite = 1")
+    @Query("SELECT name FROM word_table WHERE isFavorite = 1")
     LiveData<List<String>> getAllFavoriteWordNames();
 
     // set note

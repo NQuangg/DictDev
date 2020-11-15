@@ -13,27 +13,21 @@ import java.util.ArrayList;
 public class Word {
     @PrimaryKey
     @NonNull
-    @ColumnInfo(name = "name")
     private String name;
 
     @NonNull
-    @ColumnInfo(name = "pronounce")
     private String pronounce;
 
     @NonNull
-    @ColumnInfo(name = "is_searched")
     private String isSearched;
 
     @NonNull
-    @ColumnInfo(name = "is_favorite")
     private String isFavorite;
 
     @NonNull
-    @ColumnInfo(name = "note")
     private String note;
 
     @NonNull
-    @ColumnInfo(name = "contents")
     private ArrayList<WordContent> contents;
 
     public Word(@NonNull String name, @NonNull String pronounce, @NonNull String isSearched, @NonNull String isFavorite, @NonNull String note, @NonNull ArrayList<WordContent> contents) {
