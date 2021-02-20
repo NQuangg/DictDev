@@ -95,6 +95,7 @@ public class LoginActivity extends AppCompatActivity {
         if (user != null) {
             Intent profileIntent = new Intent(getApplicationContext(), ProfileActivity.class);
             startActivity(profileIntent);
+            finish();
         }
     }
 }
