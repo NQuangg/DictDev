@@ -68,7 +68,6 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder>{
             is.close();
 
             Glide.with(mContext).asBitmap().load(bitmap).into(imageView);
-
         }
     }
 }

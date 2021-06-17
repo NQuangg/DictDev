@@ -49,20 +49,14 @@ public class ProfileActivity extends AppCompatActivity {
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
 
-        btnLogOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
-                mGoogleSignInClient.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        Toast.makeText(ProfileActivity.this, "Sign out successfully", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(intent);
-                    }
-                });
+        btnLogOut.setOnClickListener(view -> {
+            FirebaseAuth.getInstance().signOut();
+            mGoogleSignInClient.signOut().addOnCompleteListener(task -> {
+                Toast.makeText(ProfileActivity.this, "Sign out successfully", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            });
 
-            }
         });
 
         GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(getApplicationContext());

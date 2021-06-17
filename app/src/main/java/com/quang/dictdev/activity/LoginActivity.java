@@ -45,12 +45,7 @@ public class LoginActivity extends AppCompatActivity {
 
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
-        btnSignInGoogle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                signIn();
-            }
-        });
+        btnSignInGoogle.setOnClickListener(view -> signIn());
 
     }
 

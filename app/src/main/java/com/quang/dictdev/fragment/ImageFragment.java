@@ -46,19 +46,16 @@ public class ImageFragment extends Fragment {
         rvImage.setLayoutManager(gridLayoutManager);
 
         WordViewModel mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
-        mWordViewModel.getWord(inputText).observe(getActivity(), new Observer<Word>() {
-            @Override
-            public void onChanged(Word word) {
-                ArrayList<WordContent> wordContent = word.getContents();
-                for (WordContent item: wordContent) {
-                    imageWords.addAll(item.getImages());
-                }
-                rvImage.setAdapter(imageListAdapter);
+        mWordViewModel.getWord(inputText).observe(getActivity(), word -> {
+            ArrayList<WordContent> wordContent = word.getContents();
+            for (WordContent item: wordContent) {
+                imageWords.addAll(item.getImages());
+            }
+            rvImage.setAdapter(imageListAdapter);
 
 
-                if (imageWords.size() == 0) {
-                    rvImage.setVisibility(View.GONE);
-                }
+            if (imageWords.size() == 0) {
+                rvImage.setVisibility(View.GONE);
             }
         });
 

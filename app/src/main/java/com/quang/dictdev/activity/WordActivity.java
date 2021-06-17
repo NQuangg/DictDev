@@ -5,16 +5,21 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.transition.TransitionManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SearchView;
 import android.widget.Toast;
@@ -57,16 +62,13 @@ public class WordActivity extends AppCompatActivity {
         }
 
         mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
-        mWordViewModel.getWord(inputText).observe(this, new Observer<Word>() {
-            @Override
-            public void onChanged(Word word) {
-                ArrayList<WordContent> wordContents = word.getContents();
-                WordContent wordContent = wordContents.get(0);
-                if (wordContent.getAbbreviation().isEmpty()) {
-                    setTitle(inputText);
-                } else {
-                    setTitle(wordContent.getAbbreviation());
-                }
+        mWordViewModel.getWord(inputText).observe(this, word -> {
+            ArrayList<WordContent> wordContents = word.getContents();
+            WordContent wordContent = wordContents.get(0);
+            if (wordContent.getAbbreviation().isEmpty()) {
+                setTitle(inputText);
+            } else {
+                setTitle(wordContent.getAbbreviation());
             }
         });
 
@@ -75,28 +77,22 @@ public class WordActivity extends AppCompatActivity {
         lvWord = findViewById(R.id.lv_word);
 
         final ArrayList<String> list = new ArrayList<>();
-        mWordViewModel.getAllWordNames().observe(this, new Observer<List<String>>() {
-            @Override
-            public void onChanged(List<String> wordNames) {
-                for (String wordname: wordNames) {
-                    list.add(wordname);
-                }
+        mWordViewModel.getAllWordNames().observe(this, wordNames -> {
+            for (String wordname: wordNames) {
+                list.add(wordname);
             }
         });
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, list);
         lvWord.setAdapter(adapter);
 
-        lvWord.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                SearchedWord searchedWord = new SearchedWord(lvWord.getItemAtPosition(position).toString(), "1");
-                mWordViewModel.updateSearchedWord(searchedWord);
-                Intent intent = new Intent(getApplicationContext(), WordActivity.class);
-                intent.putExtra("inputText", lvWord.getItemAtPosition(position).toString());
-                startActivity(intent);
-                svWord.setQuery("", false);
-            }
+        lvWord.setOnItemClickListener((adapterView, view, position, id) -> {
+            SearchedWord searchedWord = new SearchedWord(lvWord.getItemAtPosition(position).toString(), "1");
+            mWordViewModel.updateSearchedWord(searchedWord);
+            Intent intent1 = new Intent(getApplicationContext(), WordActivity.class);
+            intent1.putExtra("inputText", lvWord.getItemAtPosition(position).toString());
+            startActivity(intent1);
+            svWord.setQuery("", false);
         });
 
         svWord.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
@@ -175,16 +171,13 @@ public class WordActivity extends AppCompatActivity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_activity_word, menu);
 
-        mWordViewModel.getFavorite(inputText).observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(String wordFavorite) {
-                if (wordFavorite.equals("0")) {
-                    menu.getItem(1).setIcon(R.drawable.ic_unchecked_favor);
-                    isFavorite = false;
-                } else {
-                    menu.getItem(1).setIcon(R.drawable.ic_checked_favor);
-                    isFavorite = true;
-                }
+        mWordViewModel.getFavorite(inputText).observe(this, wordFavorite -> {
+            if (wordFavorite.equals("0")) {
+                menu.getItem(1).setIcon(R.drawable.ic_unchecked_favor);
+                isFavorite = false;
+            } else {
+                menu.getItem(1).setIcon(R.drawable.ic_checked_favor);
+                isFavorite = true;
             }
         });
 
@@ -217,5 +210,22 @@ public class WordActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        if (event.getAction() == MotionEvent.ACTION_DOWN) {
+            View v = getCurrentFocus();
+            if ( v instanceof EditText) {
+                Rect outRect = new Rect();
+                v.getGlobalVisibleRect(outRect);
+                if (!outRect.contains((int)event.getRawX(), (int)event.getRawY())) {
+                    v.clearFocus();
+                    InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                }
+            }
+        }
+        return super.dispatchTouchEvent(event);
     }
 }

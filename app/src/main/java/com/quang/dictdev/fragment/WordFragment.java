@@ -70,21 +70,13 @@ public class WordFragment extends Fragment {
 
 
         // Volume
-        textToSpeech = new TextToSpeech(getContext(), new TextToSpeech.OnInitListener() {
-            @Override
-            public void onInit(int status) {
-                if(status == TextToSpeech.SUCCESS) {
-                    textToSpeech.setLanguage(Locale.US);
-                }
+        textToSpeech = new TextToSpeech(getContext(), status -> {
+            if(status == TextToSpeech.SUCCESS) {
+                textToSpeech.setLanguage(Locale.US);
             }
         });
 
-        btnVolume.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                textToSpeech.speak(tvWordName.getText().toString(), TextToSpeech.QUEUE_FLUSH, null);
-            }
-        });
+        btnVolume.setOnClickListener(view -> textToSpeech.speak(tvWordName.getText().toString(), TextToSpeech.QUEUE_FLUSH, null));
 
         return rootView;
     }

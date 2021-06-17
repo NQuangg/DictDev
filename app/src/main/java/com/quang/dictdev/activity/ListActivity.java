@@ -1,5 +1,6 @@
 package com.quang.dictdev.activity;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.lifecycle.Observer;
@@ -28,8 +29,9 @@ public class ListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
 
         mRecyclerView = findViewById(R.id.list_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -46,6 +48,7 @@ public class ListActivity extends AppCompatActivity {
         final boolean isSearchedList = name.equals("searchedList");
 
         if (isSearchedList) {
+            actionBar.setTitle("Từ đã tra");
             mWordViewModel.getAllSearchedWordNames().observe(this, new Observer<List<String>>() {
                 @Override
                 public void onChanged(List<String> searchedWordArrayList) {
@@ -54,6 +57,7 @@ public class ListActivity extends AppCompatActivity {
                 }
             });
         } else {
+            actionBar.setTitle("Từ của bạn");
             mWordViewModel.getAllFavoriteWordNames().observe(this, new Observer<List<String>>() {
                 @Override
                 public void onChanged(List<String> favoriteWordArrayList) {
